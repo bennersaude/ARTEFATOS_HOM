@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>B32D80C84FD67F89DE4D6004A943845F</HASH>
+		<NOME>3.6 - Preços / filial</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Preços</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_4.2_t_-_t_Carga_t_Pacote_t_Negociado_t_____t_filial>
+			<HASH>B75780A4B75DDC03A3C072384CACCDF3</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>4.2 - Carga Pacote Negociado / filial</CARREGAR>
+		</_4.2_t_-_t_Carga_t_Pacote_t_Negociado_t_____t_filial>
+		<_4.1_t_-_t_Carga_t_Pagamentos_t_____t_filial>
+			<HASH>3961AD99C2385F84175A05D182EDE6F5</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>4.1 - Carga Pagamentos / filial</CARREGAR>
+		</_4.1_t_-_t_Carga_t_Pagamentos_t_____t_filial>
+	</Pastas>
+	<Tabelas>
+		<REAJUSTE_DE_PRECOS>
+			<HASH>1BC99EE310762B810C2B50D8229A4530</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>REAJUSTE_DE_PRECOS</NOME>
+			<ORDEM>050</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_REAJUSTEPRC</TABELA>
+			<TEXTO1>COMPENTENCIA</TEXTO1>
+			<TEXTO2>OBSERVACAO</TEXTO2>
+			<CARREGAR>3.6.P - Parâmetros de Reajuste / filial</CARREGAR>
+			<LEGENDA>Reajuste de Preços</LEGENDA>
+			<SQLESPECIAL>A.FILIAL IS NOT NULL AND A.FILIAL = @TABELA|FILIAIS</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO>458795</CODIGOINTERNO>
+		</REAJUSTE_DE_PRECOS>
+	</Tabelas>
+</Arvore>

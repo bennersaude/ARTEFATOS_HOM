@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamMotivoCancelamentoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamMotivoCancelamento, Benner.Saude.Entidades</INTERFACE>
+	<HASH>3DAAA9873E687828F65ABE34FD0457E9</HASH>
+</ObjetoNegocio>

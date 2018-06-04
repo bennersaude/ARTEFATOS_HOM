@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>46C4E7941BC9A7BFF68D3099FFFC7363</HASH>
+		<COMANDO>DEPURAR</COMANDO>
+		<ORDEM>002</ORDEM>
+		<LEGENDA>Depuração</LEGENDA>
+		<DICA>Gerar arquivo com os comandos sql gerados pelas DLL's do sistema</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<SISTEMA>N</SISTEMA>
+		<SOMENTEDESKTOP>N</SOMENTEDESKTOP>
+		<BOTAO>N</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

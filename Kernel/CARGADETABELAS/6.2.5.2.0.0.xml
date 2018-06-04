@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>14431A08528665D841774EEFAED511AD</HASH>
+		<NOME>6.2.5.2.0.0</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>Genéricas</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

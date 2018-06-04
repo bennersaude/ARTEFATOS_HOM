@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.Tabelas.SamVinculoFuncionalBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamVinculoFuncional, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F93823BFA931F863FB89EADB31907409</HASH>
+</ObjetoNegocio>

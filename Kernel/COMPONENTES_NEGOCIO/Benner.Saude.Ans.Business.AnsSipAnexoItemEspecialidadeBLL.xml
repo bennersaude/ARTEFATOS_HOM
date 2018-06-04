@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Ans.Business.AnsSipAnexoItemEspecialidadeBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Ans.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Ans.Interface.IAnsSipAnexoItemEspecialidade, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F1FCF8676A984A064C621BFCC87160D9</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.TesteEmail.TvFiltroNf002BLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.TabelaVirtual.Interface.ITvFiltroNf002, Benner.Saude.Entidades</INTERFACE>
+	<HASH>DD1D259A4D9F2137027DB6BE05116A97</HASH>
+</ObjetoNegocio>

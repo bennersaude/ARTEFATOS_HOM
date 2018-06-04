@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Clinica.Business.CliVacinaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Clinica.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Clinica.Interface.ICliVacina, Benner.Saude.Entidades</INTERFACE>
+	<HASH>74FAEEDC22F6DB80FFB8922B5A9F01A7</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamTipoGuiaMdGuiaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISamTipoGuiaMdGuia, Benner.Saude.Entidades</INTERFACE>
+	<HASH>46F668ABB5705A7EEA2C167AEED500DA</HASH>
+</ObjetoNegocio>

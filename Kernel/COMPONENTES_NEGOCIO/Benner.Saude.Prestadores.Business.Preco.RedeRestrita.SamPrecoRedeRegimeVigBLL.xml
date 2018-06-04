@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.Preco.RedeRestrita.SamPrecoRedeRegimeVigBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Preco.RedeRestrita.ISamPrecoRedeRegimeVig, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E54DEE85B40F2D99BA750BCE73EBEAA6</HASH>
+</ObjetoNegocio>

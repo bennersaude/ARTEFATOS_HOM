@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.MetaTabelas.Business.RRelatoriosBLL</TIPO>
+	<ARQUIVO>Benner.Saude.MetaTabelas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.MetaTabela.Interface.IRRelatorios, Benner.Saude.Entidades</INTERFACE>
+	<HASH>57AB26FDA79EE18EB51EE1DC4E85453A</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.TVForm0144BLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Atendimento.Interfaces.ITVForm0144, Benner.Saude.Entidades</INTERFACE>
+	<HASH>97B8B79DD2CF3CC8D711F42AC1C29DF7</HASH>
+</ObjetoNegocio>

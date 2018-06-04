@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Comissoes.Business.RotinaApropriacao.ComRotApropParcelaRateioBLL</TIPO>
+	<ARQUIVO>Benner.Comissoes.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Comissoes.Interface.IComRotApropParcelaRateio, Benner.Saude.Entidades</INTERFACE>
+	<HASH>4D29E1B07102323A59A2F441481FCB40</HASH>
+</ObjetoNegocio>

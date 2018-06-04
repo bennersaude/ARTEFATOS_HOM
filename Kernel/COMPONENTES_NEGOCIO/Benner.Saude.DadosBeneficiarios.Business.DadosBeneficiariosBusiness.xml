@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.DadosBeneficiarios.Business.DadosBeneficiariosBusiness</TIPO>
+	<ARQUIVO>Benner.Saude.DadosBeneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.DadosBeneficiarios.Business.Interfaces.IDadosBeneficiariosBusiness, Benner.Saude.DadosBeneficiarios.Business</INTERFACE>
+	<HASH>91B6B05020BACBA0DBA7BEE8EBD6E7CA</HASH>
+</ObjetoNegocio>

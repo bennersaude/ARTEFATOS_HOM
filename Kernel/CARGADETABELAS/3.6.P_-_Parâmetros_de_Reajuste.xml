@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>A118DAD97CC2F949ECD92A7E94A8F418</HASH>
+		<NOME>3.6.P - Parâmetros de Reajuste</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Parâmetros de Reajuste</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_3.6.Pa_t_-_t_Parâmetros_t__abrech_Abertos_fechach_>
+			<HASH>0B00FE62B91C4B42008A597D9B14A030</HASH>
+			<SQLESPECIAL/>
+			<ORDEM>000</ORDEM>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.6.Pa - Parâmetros (Abertos)</CARREGAR>
+		</_3.6.Pa_t_-_t_Parâmetros_t__abrech_Abertos_fechach_>
+		<_3.6.Pf_t_-_t_Parâmetros_t__abrech_Fechados_fechach_>
+			<HASH>749EC5FCA59B1048A0BCE1FD6F24BBEE</HASH>
+			<SQLESPECIAL/>
+			<ORDEM>000</ORDEM>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.6.Pf - Parâmetros (Fechados)</CARREGAR>
+		</_3.6.Pf_t_-_t_Parâmetros_t__abrech_Fechados_fechach_>
+	</Pastas>
+</Arvore>

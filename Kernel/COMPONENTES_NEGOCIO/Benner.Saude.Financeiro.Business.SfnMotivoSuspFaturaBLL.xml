@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.SfnMotivoSuspFaturaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.Interface.ISfnMotivoSuspFatura, Benner.Saude.Entidades</INTERFACE>
+	<HASH>22DFE2A011ADBD61DF66F378D50919F4</HASH>
+</ObjetoNegocio>

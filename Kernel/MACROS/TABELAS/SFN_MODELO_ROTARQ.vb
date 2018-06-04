@@ -1,0 +1,16 @@
+﻿'HASH: E66EE2F5C96DA70491CB688C6905E2A0
+ 
+'#Uses "*bsShowMessage"
+
+Public Sub MODELODOCUMENTO_OnChange()
+	CurrentQuery.FieldByName("TIPODOCUMENTO").Clear
+End Sub
+
+Public Sub MODELODOCUMENTO_OnPopup(ShowPopup As Boolean)
+	MODELODOCUMENTO.LocalWhere ="SFN_MODELO.TABTIPO=1"
+End Sub
+
+
+Public Sub TIPODOCUMENTO_OnPopup(ShowPopup As Boolean)
+	TIPODOCUMENTO.LocalWhere = "HANDLE IN (SELECT TD.TIPODOCUMENTO FROM SFN_TIPODOCUMENTO_MODELO TD WHERE TD.MODELODOCUMENTO = " + Str(CurrentQuery.FieldByName("MODELODOCUMENTO").AsInteger) + ")"
+End Sub

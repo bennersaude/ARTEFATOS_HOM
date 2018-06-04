@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>165F35A982F6A7E7DB3285811A2417A4</HASH>
+		<NOME>4.1.99.09 Calendário Pgto por Prestador</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Prestador</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

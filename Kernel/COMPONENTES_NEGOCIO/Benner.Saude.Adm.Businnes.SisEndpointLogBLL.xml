@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SisEndpointLogBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISisEndpointLog, Benner.Saude.Entidades</INTERFACE>
+	<HASH>5824621D0713F4B723D247761B494EFE</HASH>
+</ObjetoNegocio>

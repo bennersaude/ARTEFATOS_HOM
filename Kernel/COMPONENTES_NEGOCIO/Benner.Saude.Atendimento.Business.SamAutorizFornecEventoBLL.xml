@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamAutorizFornecEventoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Atendimento.Interfaces.ISamAutorizFornecEvento, Benner.Saude.Entidades</INTERFACE>
+	<HASH>7B2B38E3F9976735D351C109EE35030C</HASH>
+</ObjetoNegocio>

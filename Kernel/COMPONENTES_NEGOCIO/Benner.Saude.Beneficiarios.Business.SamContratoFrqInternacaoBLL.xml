@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamContratoFrqInternacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamContratoFrqInternacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>8D0F26DBFCD1A3E818AF61B3299E6866</HASH>
+</ObjetoNegocio>

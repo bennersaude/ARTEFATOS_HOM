@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamAutorizAnexoRadioProcBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Atendimento.Interfaces.ISamAutorizAnexoRadioProc, Benner.Saude.Atendimento.Interfaces</INTERFACE>
+	<HASH>6634FFEA365DABDCF53332ECB0B80B28</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>F1779E38A24BA819493208D62397592C</HASH>
+		<NOME>MS_CATEGORIA</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>MS Categoria</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

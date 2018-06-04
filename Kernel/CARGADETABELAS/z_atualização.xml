@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>98C79A6D47A3DA64094FA935191018D6</HASH>
+		<NOME>z_atualização</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>z_atualização</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

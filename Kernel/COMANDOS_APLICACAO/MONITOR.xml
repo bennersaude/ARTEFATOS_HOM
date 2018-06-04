@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>5738CD818CF08990CA6915B210CA0A1B</HASH>
+		<COMANDO>MONITOR</COMANDO>
+		<ORDEM>050</ORDEM>
+		<LEGENDA>Monitor de Tarefas</LEGENDA>
+		<DICA>Monitoramento de tarefas em processo</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<SISTEMA>N</SISTEMA>
+		<SOMENTEDESKTOP>N</SOMENTEDESKTOP>
+		<BOTAO>N</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

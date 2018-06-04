@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.SfnContafinAlteracaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.Interface.ISfnContaFinAlteracao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>1EAFE3868E144E2A3F910E04A4EFD326</HASH>
+</ObjetoNegocio>

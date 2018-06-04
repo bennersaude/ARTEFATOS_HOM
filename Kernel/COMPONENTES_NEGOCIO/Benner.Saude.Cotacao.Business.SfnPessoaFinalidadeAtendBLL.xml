@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Cotacao.Business.SfnPessoaFinalidadeAtendBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Cotacao.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Cotacao.Interface.ISfnPessoaFinalidadeAtend, Benner.Saude.Entidades</INTERFACE>
+	<HASH>CECCFE1618A910C83580232D81442595</HASH>
+</ObjetoNegocio>

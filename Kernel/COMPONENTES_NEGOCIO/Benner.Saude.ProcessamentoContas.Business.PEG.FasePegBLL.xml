@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.PEG.FasePegBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.PEG.IFasePeg, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E5A97DA87E4D65A9FA5A49F7677BAACC</HASH>
+</ObjetoNegocio>

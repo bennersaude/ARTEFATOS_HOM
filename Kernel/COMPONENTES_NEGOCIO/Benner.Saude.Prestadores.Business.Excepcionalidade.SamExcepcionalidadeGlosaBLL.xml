@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.Excepcionalidade.SamExcepcionalidadeGlosaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Excepcionalidade.ISamExcepcionalidadeGlosa, Benner.Saude.Entidades</INTERFACE>
+	<HASH>50B45CD3BC46D867C2D0032FA04900F1</HASH>
+</ObjetoNegocio>

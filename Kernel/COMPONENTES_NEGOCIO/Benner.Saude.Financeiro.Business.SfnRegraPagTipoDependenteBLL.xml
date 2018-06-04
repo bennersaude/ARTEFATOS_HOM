@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.SfnRegraPagTipoDependenteBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.Interface.ISfnRegraPagTipoDependente, Benner.Saude.Entidades</INTERFACE>
+	<HASH>22FD965D78EA065A02FB4B2F5E3733A6</HASH>
+</ObjetoNegocio>

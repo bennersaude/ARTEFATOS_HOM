@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.DotacaoOrcamentaria.SfnDotExercClassifDesconsBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.DotacaoOrcamentaria.Interface.ISfnDotExercClassifDescons, Benner.Saude.Entidades</INTERFACE>
+	<HASH>7AB87347364CAB434F3449424E7466F8</HASH>
+</ObjetoNegocio>

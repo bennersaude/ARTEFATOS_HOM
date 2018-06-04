@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Diversos.Business.PaisesBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Diversos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Diversos.Interface.IPaises, Benner.Saude.Entidades</INTERFACE>
+	<HASH>05A24385FC77FF3919D1545852EB1837</HASH>
+</ObjetoNegocio>

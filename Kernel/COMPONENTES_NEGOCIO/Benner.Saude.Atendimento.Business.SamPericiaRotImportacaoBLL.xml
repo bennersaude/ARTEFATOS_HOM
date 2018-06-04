@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamPericiaRotImportacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Atendimento.Interfaces.ISamPericiaRotImportacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>AC1C385D6072A0244A7F153D8CE08CCE</HASH>
+</ObjetoNegocio>

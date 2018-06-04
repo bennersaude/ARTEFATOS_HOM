@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>5CA94CF1D583D9A45A99E571F2E1506B</HASH>
+		<NOME>SAM_AUTORIZ_MACROCLIENTE</NOME>
+		<APELIDO/>
+		<LEGENDA>SAM_AUTORIZ_MACROCLIENTE</LEGENDA>
+		<LOCAL>N</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA>Site: 9907</TOPICOAJUDA>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+\viewkind4\uc1\pard\lang1033\f0\fs16 O objetivo desta tabela \'e9 exclusivamente de permitir ao usu\'e1rio(cliente) que crie campos do tipo Bot\'e3o.
+\par 
+\par Estes campos do tipo Bot\'e3o, ser\'e3o visualizados na nova interface de digita\'e7\'e3o da autoriza\'e7\'e3o.
+\par 
+\par Em Atendimento / Tabelas / Macro do cliente para Autoriza\'e7\'e3o, o usu\'e1rio poder\'e1 vincular o c\'f3digo da macro associada a cada bot\'e3o, que ser\'e1 executado atrav\'e9s de sua execu\'e7\'e3o na nova interface de digita\'e7\'e3o de autoriza\'e7\'e3o.
+\par 
+\par \lang1046\f1 
+\par }</OBSERVACOES>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>1</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE/>
+	</Configuracoes>
+	<Campos>
+		<CODIGO>
+			<TABELA>SAM_AUTORIZ_MACROCLIENTE</TABELA>
+			<NOME>CODIGO</NOME>
+			<LEGENDAFORMULARIO>Código</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Código</LEGENDAGRADE>
+			<ORDEM>050</ORDEM>
+			<DICA>Código</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>1</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES/>
+			<PROPRIEDADE/>
+			<HASH>415A4404DAAF279FB3463ED660EA6D8E</HASH>
+		</CODIGO>
+	</Campos>
+</Tabela>

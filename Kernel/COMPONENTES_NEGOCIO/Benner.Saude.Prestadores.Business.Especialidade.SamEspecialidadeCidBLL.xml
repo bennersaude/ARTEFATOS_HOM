@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.Especialidade.SamEspecialidadeCidBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Especialidade.Interface.ISamEspecialidadeCid, Benner.Saude.Entidades</INTERFACE>
+	<HASH>1CF39D07C38C89D6904760CEC16F9182</HASH>
+</ObjetoNegocio>

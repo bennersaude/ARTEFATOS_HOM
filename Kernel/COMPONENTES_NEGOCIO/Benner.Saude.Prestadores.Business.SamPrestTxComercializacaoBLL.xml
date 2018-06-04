@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.SamPrestTxComercializacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Interface.ISamPrestTxComercializacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E484C94EFD4BDB58B6E3418BB6C24972</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Clinica.Business.CliOdontogramaPepBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Clinica.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Clinica.Interface.ICliOdontogramaPep, Benner.Saude.Entidades</INTERFACE>
+	<HASH>678C20012417BA828B70D109D8BE78D2</HASH>
+</ObjetoNegocio>

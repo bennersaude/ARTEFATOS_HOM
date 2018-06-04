@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>710974D319D919ADFF3F88384897B12E</HASH>
+		<NOME>MS_SUBGRUPO2</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>MS Subgrupo</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

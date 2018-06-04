@@ -1,0 +1,24 @@
+﻿'HASH: A216D9B5CCFD42B670316479BD64368E
+'MACRO SAM_CONTRATO_AUTOGESTAO_TXADM
+
+
+Public Sub TABLE_BeforeEdit(CanContinue As Boolean)
+    If WebMode Then
+    	CONTRATOMODULO.WebLocalWhere = "A.CONTRATO = " + Str(RecordHandleOfTable("SAM_CONTRATO")) + " AND A.HANDLE NOT IN (SELECT CONTRATOMODULO FROM SAM_CONTRATO_AUTOGESTAO_TXADM WHERE CONTRATOAUTOGESTAO = " _
+                               + Str(RecordHandleOfTable("SAM_CONTRATO_AUTOGESTAO")) + ")"
+    ElseIf VisibleMode Then
+		CONTRATOMODULO.LocalWhere = "SAM_CONTRATO_MOD.CONTRATO = " + Str(RecordHandleOfTable("SAM_CONTRATO")) + " AND SAM_CONTRATO_MOD.HANDLE NOT IN (SELECT CONTRATOMODULO FROM SAM_CONTRATO_AUTOGESTAO_TXADM WHERE CONTRATOAUTOGESTAO = " _
+                               + Str(RecordHandleOfTable("SAM_CONTRATO_AUTOGESTAO")) + ")"
+    End If
+
+End Sub
+
+Public Sub TABLE_BeforeInsert(CanContinue As Boolean)
+	If WebMode Then
+    	CONTRATOMODULO.WebLocalWhere = "A.CONTRATO = " + Str(RecordHandleOfTable("SAM_CONTRATO")) + " AND A.HANDLE NOT IN (SELECT CONTRATOMODULO FROM SAM_CONTRATO_AUTOGESTAO_TXADM WHERE CONTRATOAUTOGESTAO = " _
+                               + Str(RecordHandleOfTable("SAM_CONTRATO_AUTOGESTAO")) + ")"
+    ElseIf VisibleMode Then
+		CONTRATOMODULO.LocalWhere = "SAM_CONTRATO_MOD.CONTRATO = " + Str(RecordHandleOfTable("SAM_CONTRATO")) + " AND SAM_CONTRATO_MOD.HANDLE NOT IN (SELECT CONTRATOMODULO FROM SAM_CONTRATO_AUTOGESTAO_TXADM WHERE CONTRATOAUTOGESTAO = " _
+                               + Str(RecordHandleOfTable("SAM_CONTRATO_AUTOGESTAO")) + ")"
+    End If
+End Sub

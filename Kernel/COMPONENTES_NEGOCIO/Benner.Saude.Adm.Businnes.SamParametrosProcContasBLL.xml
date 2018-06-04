@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamParametrosProcContasBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISamParametrosProcContas, Benner.Saude.Entidades</INTERFACE>
+	<HASH>D1D30AD1BA6C7B4725B1D654182C917D</HASH>
+</ObjetoNegocio>

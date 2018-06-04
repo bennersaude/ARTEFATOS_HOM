@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Diversos.Business.LogradourosBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Diversos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Diversos.ILogradouros, Benner.Saude.Entidades</INTERFACE>
+	<HASH>A34BC61357A6FD08087E517096D2BBF9</HASH>
+</ObjetoNegocio>

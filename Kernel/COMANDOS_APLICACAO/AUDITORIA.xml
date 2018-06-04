@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>D9F9A4F044CAD5FB906A6EEFE6E6ED3E</HASH>
+		<COMANDO>AUDITORIA</COMANDO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Log e auditoria</LEGENDA>
+		<DICA>Exibe o log de alterações do registro ou tabela selecionada</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO>CS.LOGVIEWCOMMAND</EXTENSAO>
+		<SISTEMA>N</SISTEMA>
+		<SOMENTEDESKTOP>N</SOMENTEDESKTOP>
+		<BOTAO>S</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

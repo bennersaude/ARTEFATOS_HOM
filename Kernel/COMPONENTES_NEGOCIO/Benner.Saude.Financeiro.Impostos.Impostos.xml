@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Impostos.Impostos</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Impostos</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Financeiro.Impostos.IImpostos, Benner.Saude.Financeiro.Impostos</INTERFACE>
+	<HASH>5F8438B9EB7566B42E80C7B003E78807</HASH>
+</ObjetoNegocio>

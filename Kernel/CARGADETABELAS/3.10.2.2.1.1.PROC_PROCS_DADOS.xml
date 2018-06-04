@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>41C14A7B9347ABC6F8B4210A501381E5</HASH>
+		<NOME>3.10.2.2.1.1.PROC_PROCS_DADOS</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>Especialidades</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Tabelas>
+		<AVALIACOES>
+			<HASH>D7640458BA257EF022031C2C5F3F0060</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>AVALIACOES</NOME>
+			<ORDEM>040</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_AVALIACAOREF</TABELA>
+			<TEXTO1>ORDEM</TEXTO1>
+			<TEXTO2>AVALIACAOREF</TEXTO2>
+			<CARREGAR/>
+			<LEGENDA>Avaliações</LEGENDA>
+			<SQLESPECIAL/>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</AVALIACOES>
+		<ESPECIALIDADES>
+			<HASH>B6FABE9ABF780038CB3B950AF0211518</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>ESPECIALIDADES</NOME>
+			<ORDEM>050</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_ESPECIALIDADE</TABELA>
+			<TEXTO1>ESPECIALIDADE</TEXTO1>
+			<TEXTO2/>
+			<CARREGAR/>
+			<LEGENDA>Especialidades</LEGENDA>
+			<SQLESPECIAL/>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</ESPECIALIDADES>
+		<PRESTADORES_APROVADOS>
+			<HASH>1B260FB5533DD39271A4E0CDC0512701</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>PRESTADORES_APROVADOS</NOME>
+			<ORDEM>070</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_PRESTADOR</TABELA>
+			<TEXTO1>PRESTADOR</TEXTO1>
+			<TEXTO2>DATAINICIAL</TEXTO2>
+			<CARREGAR>3.10.2.2.1.1.1.PROC_PROCS_DADOS_PRE</CARREGAR>
+			<LEGENDA>Prestadores referenciáveis</LEGENDA>
+			<SQLESPECIAL>A.SITUACAO = 'A'
+AND (A.PRESTADOR IN (SELECT X.HANDLE
+                                           FROM SAM_PRESTADOR X
+                                         WHERE X.MUNICIPIOPAGAMENTO = (SELECT PR.MUNICIPIO 
+                                                                                                         FROM SAM_PROCREF PR
+                                                                                                       WHERE PR.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                                                                                     )
+                                       )
+         OR (NOT EXISTS (SELECT X.MUNICIPIO
+                                        FROM SAM_PROCREF X
+                                      WHERE X.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                           AND X.MUNICIPIO IS NOT NULL)
+               AND A.MUNICIPIO IS NULL
+              )
+        )</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</PRESTADORES_APROVADOS>
+		<PRESTADORES_CANDIDATOS>
+			<HASH>8D19D90AD05C2D6DC5D02BC64C13B4F2</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>PRESTADORES_CANDIDATOS</NOME>
+			<ORDEM>060</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_PRESTADOR</TABELA>
+			<TEXTO1>PRESTADOR</TEXTO1>
+			<TEXTO2>DATAINICIAL</TEXTO2>
+			<CARREGAR>3.10.2.2.1.1.1.PROC_PROCS_DADOS_PRE</CARREGAR>
+			<LEGENDA>Prestadores candidatos</LEGENDA>
+			<SQLESPECIAL>A.SITUACAO = 'E'
+AND (A.PRESTADOR IN (SELECT X.HANDLE
+                                           FROM SAM_PRESTADOR X
+                                         WHERE X.MUNICIPIOPAGAMENTO = (SELECT PR.MUNICIPIO 
+                                                                                                         FROM SAM_PROCREF PR
+                                                                                                       WHERE PR.HANDLE = @TABELA|SAM_PROCREF
+                                                                                                     )
+                                       )
+         OR (NOT EXISTS (SELECT X.MUNICIPIO
+                                        FROM SAM_PROCREF X
+                                      WHERE X.HANDLE = @TABELA|SAM_PROCREF
+                                           AND X.MUNICIPIO IS NOT NULL)
+               AND A.MUNICIPIO IS NULL
+              )
+        )</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</PRESTADORES_CANDIDATOS>
+		<PRESTADORES_REFERENCIADOS>
+			<HASH>8D1F9C314EA38089453AE437134C2780</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>PRESTADORES_REFERENCIADOS</NOME>
+			<ORDEM>090</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_PRESTADOR</TABELA>
+			<TEXTO1>PRESTADOR</TEXTO1>
+			<TEXTO2>DATAINICIAL</TEXTO2>
+			<CARREGAR>3.10.2.2.1.1.1.PROC_PROCS_DADOS_PRE</CARREGAR>
+			<LEGENDA>Prestadores referenciados</LEGENDA>
+			<SQLESPECIAL>A.SITUACAO = 'M'
+AND (A.PRESTADOR IN (SELECT X.HANDLE
+                                           FROM SAM_PRESTADOR X
+                                         WHERE X.MUNICIPIOPAGAMENTO = (SELECT PR.MUNICIPIO 
+                                                                                                         FROM SAM_PROCREF PR
+                                                                                                       WHERE PR.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                                                                                     )
+                                       )
+         OR (NOT EXISTS (SELECT X.MUNICIPIO
+                                        FROM SAM_PROCREF X
+                                      WHERE X.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                           AND X.MUNICIPIO IS NOT NULL)
+               AND A.MUNICIPIO IS NULL
+              )
+        )</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</PRESTADORES_REFERENCIADOS>
+		<PRESTADORES_REPROVADOS>
+			<HASH>D775D39FD56B470FAFDDB2347BD99C13</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>PRESTADORES_REPROVADOS</NOME>
+			<ORDEM>080</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PROCREF_PRESTADOR</TABELA>
+			<TEXTO1>PRESTADOR</TEXTO1>
+			<TEXTO2>DATAINICIAL</TEXTO2>
+			<CARREGAR>3.10.2.2.1.1.1.PROC_PROCS_DADOS_PRE</CARREGAR>
+			<LEGENDA>Prestadores não-referenciáveis</LEGENDA>
+			<SQLESPECIAL>A.SITUACAO = 'R'
+AND (A.PRESTADOR IN (SELECT X.HANDLE
+                                           FROM SAM_PRESTADOR X
+                                         WHERE X.MUNICIPIOPAGAMENTO = (SELECT PR.MUNICIPIO 
+                                                                                                         FROM SAM_PROCREF PR
+                                                                                                       WHERE PR.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                                                                                     )
+                                       )
+         OR (NOT EXISTS (SELECT X.MUNICIPIO
+                                        FROM SAM_PROCREF X
+                                      WHERE X.HANDLE = @TABELA|SAM_PROCREF|HANDLE
+                                           AND X.MUNICIPIO IS NOT NULL)
+               AND A.MUNICIPIO IS NULL
+              )
+        )</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</PRESTADORES_REPROVADOS>
+	</Tabelas>
+</Arvore>

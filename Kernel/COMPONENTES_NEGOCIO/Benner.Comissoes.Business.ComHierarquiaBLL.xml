@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Comissoes.Business.ComHierarquiaBLL</TIPO>
+	<ARQUIVO>Benner.Comissoes.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Comissoes.Interface.IComHierarquia, Benner.Saude.Entidades</INTERFACE>
+	<HASH>958CD3D2DBC17A810A6B6F39C63EBFCB</HASH>
+</ObjetoNegocio>

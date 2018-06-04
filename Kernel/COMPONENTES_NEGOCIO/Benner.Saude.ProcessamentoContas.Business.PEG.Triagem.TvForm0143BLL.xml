@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.PEG.Triagem.TvForm0143BLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.PEG.Interface.ITvForm0143, Benner.Saude.Entidades</INTERFACE>
+	<HASH>B68A16B7548804D5F7322DDBD15335F6</HASH>
+</ObjetoNegocio>

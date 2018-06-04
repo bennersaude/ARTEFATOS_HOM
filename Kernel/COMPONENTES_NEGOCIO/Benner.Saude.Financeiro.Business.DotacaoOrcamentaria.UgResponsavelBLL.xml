@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.DotacaoOrcamentaria.UgResponsavelBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.DotacaoOrcamentaria.Interface.IUgResponsavel, Benner.Saude.Entidades</INTERFACE>
+	<HASH>FF0F6BEEDA815283E7C3E0920B8BFE28</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Processo.DissidioRetroativo.DissidioRetroativo</TIPO>
+	<ARQUIVO>Benner.Saude.Processo.DissidioRetroativo</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Processo.DissidioRetroativo.IDissidioRetroativo, Benner.Saude.Processo.DissidioRetroativo</INTERFACE>
+	<HASH>51119BF8A929E935F12EFBC0D1EE0100</HASH>
+</ObjetoNegocio>

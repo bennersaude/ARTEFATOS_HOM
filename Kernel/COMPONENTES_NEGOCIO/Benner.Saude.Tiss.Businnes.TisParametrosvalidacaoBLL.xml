@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Tiss.Businnes.TisParametrosvalidacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Tiss.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Tiss.Interface.ITisParametrosvalidacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>AD7AD180E4A802B3BE630C8F2CD7D562</HASH>
+</ObjetoNegocio>

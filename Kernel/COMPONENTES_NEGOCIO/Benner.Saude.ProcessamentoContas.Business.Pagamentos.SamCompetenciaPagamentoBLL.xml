@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.Pagamentos.SamCompetenciaPagamentoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.Pagamentos.ISamCompetenciaPagamento, Benner.Saude.Entidades</INTERFACE>
+	<HASH>9FEEAF2A29926C23704EA3574382143A</HASH>
+</ObjetoNegocio>

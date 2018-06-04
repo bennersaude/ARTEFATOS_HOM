@@ -1,0 +1,62 @@
+﻿'HASH: 8A2CB4C5DB86BE804E76C2661B8BA7B1
+
+
+Public Sub LIBERARNEGACOES_OnClick()
+  If MsgBox("Confirma a liberação de todos as negações para o usuário ?" ,vbYesNo,"Liberação de Negações") = vbYes Then
+	Set SQL1 = NewQuery
+	Set SQL2 = NewQuery
+	Set SQLUSUARIO = NewQuery
+
+    SQL1.Clear
+	SQL1.Add("SELECT HANDLE FROM SAM_MOTIVONEGACAO")
+	SQL1.Add("WHERE HANDLE NOT IN")
+	SQL1.Add("(SELECT MOTIVONEGACAO FROM SAM_GRUPO_MOTIVONEGACAO WHERE GRUPO = :GRUPO)")
+	SQL1.ParamByName("GRUPO").Value = RecordHandleOfTable("Z_GRUPOS")
+	SQL1.Active=True
+
+	While Not SQL1.EOF
+	  SQL2.Clear
+	  SQL2.Add("INSERT INTO SAM_GRUPO_MOTIVONEGACAO (HANDLE, GRUPO, MOTIVONEGACAO) VALUES (:HANDLE,:GRUPO,:MOTIVONEGACAO)")
+	  SQL2.ParamByName("HANDLE").Value = NewHandle("SAM_GRUPO_MOTIVONEGACAO")
+	  SQL2.ParamByName("GRUPO").Value = RecordHandleOfTable("Z_GRUPOS")
+	  SQL2.ParamByName("MOTIVONEGACAO").Value = SQL1.FieldByName("HANDLE").AsInteger
+	  SQL2.ExecSQL
+	  SQL1.Next
+	Wend
+	RefreshNodesWithTable"SAM_GRUPO_MOTIVONEGACAO"
+
+  SQLUSUARIO.Clear
+  SQLUSUARIO.Add("SELECT HANDLE FROM Z_GRUPOUSUARIOS WHERE GRUPO = :GRUPO")
+  SQLUSUARIO.ParamByName("GRUPO").Value = RecordHandleOfTable("Z_GRUPOS")
+  SQLUSUARIO.Active = True
+
+  While Not SQLUSUARIO.EOF
+    Set SQL1 = NewQuery
+	Set SQL2 = NewQuery
+
+
+    SQL1.Clear
+    SQL1.Add("SELECT HANDLE FROM SAM_MOTIVONEGACAO")
+    SQL1.Add("WHERE HANDLE NOT IN")
+    SQL1.Add("(SELECT MOTIVONEGACAO FROM SAM_USUARIO_MOTIVONEGACAO WHERE USUARIO = :USUARIO)")
+    SQL1.Add("AND HANDLE IN (SELECT MOTIVONEGACAO FROM SAM_GRUPO_MOTIVONEGACAO WHERE GRUPO = :GRUPO)")
+    SQL1.ParamByName("USUARIO").Value = sqlusuario.FieldByName("HANDLE").AsInteger
+    SQL1.ParamByName("GRUPO").Value = RecordHandleOfTable("Z_GRUPOS")
+    SQL1.Active=True
+
+    While Not SQL1.EOF
+      SQL2.Clear
+      SQL2.Add("INSERT INTO SAM_USUARIO_MOTIVONEGACAO (HANDLE, USUARIO, MOTIVONEGACAO) VALUES (:HANDLE,:USUARIO,:MOTIVONEGACAO)")
+      SQL2.ParamByName("HANDLE").Value = NewHandle("SAM_USUARIO_MOTIVONEGACAO")
+      SQL2.ParamByName("USUARIO").Value = sqlusuario.FieldByName("HANDLE").AsInteger
+      SQL2.ParamByName("MOTIVONEGACAO").Value = SQL1.FieldByName("HANDLE").AsInteger
+      SQL2.ExecSQL
+      SQL1.Next
+    Wend
+
+   SQLUSUARIO.Next
+  Wend
+
+  End If
+
+End Sub

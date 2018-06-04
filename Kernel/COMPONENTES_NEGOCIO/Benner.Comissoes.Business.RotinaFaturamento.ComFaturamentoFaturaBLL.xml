@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Comissoes.Business.RotinaFaturamento.ComFaturamentoFaturaBLL</TIPO>
+	<ARQUIVO>Benner.Comissoes.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Comissoes.Interface.IComFaturamentoFatura, Benner.Saude.Entidades</INTERFACE>
+	<HASH>725B0E6B5F353EBE72E590250D3C2CA6</HASH>
+</ObjetoNegocio>

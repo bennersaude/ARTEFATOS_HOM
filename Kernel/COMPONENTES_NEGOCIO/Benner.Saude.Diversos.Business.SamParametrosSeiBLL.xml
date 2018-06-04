@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Diversos.Business.SamParametrosSeiBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Diversos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Diversos.Interface.ISamParametrosSei, Benner.Saude.Entidades</INTERFACE>
+	<HASH>04C7754C245B30B53DBAB51B898260B3</HASH>
+</ObjetoNegocio>

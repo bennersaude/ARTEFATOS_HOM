@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>FB814CB08E9E78334E9C14D9180E37BD</HASH>
+		<NOME>3.5.4 - Data de Retorno</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Data de Retorno</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Comissoes.Business.ComDistribuicaoPercBLL</TIPO>
+	<ARQUIVO>Benner.Comissoes.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Comissoes.Interface.IComDistribuicaoPerc, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F502CE9C1A4BFB8D36539F429EC02AD5</HASH>
+</ObjetoNegocio>

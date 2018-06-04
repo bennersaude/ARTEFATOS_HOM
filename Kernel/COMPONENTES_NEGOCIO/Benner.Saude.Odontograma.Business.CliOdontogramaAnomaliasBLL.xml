@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Odontograma.Business.CliOdontogramaAnomaliasBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Odontograma.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Odontograma.Interface.ICliOdontogramaAnomalias, Benner.Saude.Entidades</INTERFACE>
+	<HASH>7303E16922C5EA7800031564CF4323DD</HASH>
+</ObjetoNegocio>

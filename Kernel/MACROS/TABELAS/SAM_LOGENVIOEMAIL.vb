@@ -1,0 +1,6 @@
+﻿'HASH: 2CEFD51999967A2D7D3A13844A92B4AE
+ 
+
+Public Sub TABLE_BeforeScroll()
+	BOTAOENVIAREMAIL.Visible = False
+End Sub

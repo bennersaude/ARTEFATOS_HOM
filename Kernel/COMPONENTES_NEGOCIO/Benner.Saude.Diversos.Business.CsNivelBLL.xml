@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Diversos.Business.CsNivelBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Diversos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Diversos.Interface.ICsNivel, Benner.Saude.Entidades</INTERFACE>
+	<HASH>06FC14AE8B252B640D9727F87D8B3CED</HASH>
+</ObjetoNegocio>

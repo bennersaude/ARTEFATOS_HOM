@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>AE48B67C192B8CF4C4AE2EEE1A30A271</HASH>
+		<NOME>TV_EXCLUSAO_ESCALA</NOME>
+		<APELIDO/>
+		<LEGENDA>Exclusão de Escalas</LEGENDA>
+		<LOCAL>V</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>8388608</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA/>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES/>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>2</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE>ExclusaoEscalas</ENTIDADE>
+	</Configuracoes>
+	<Campos>
+		<CLINICA>
+			<TABELA>TV_EXCLUSAO_ESCALA</TABELA>
+			<NOME>CLINICA</NOME>
+			<LEGENDAFORMULARIO>Clínica</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Clínica</LEGENDAGRADE>
+			<ORDEM>070</ORDEM>
+			<DICA>Clínica</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>6</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR>CLI_CLINICA</PESQUISAR>
+			<RESULTADO>CLI_CLINICA|PRESTADOR</RESULTADO>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>40</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES/>
+			<PROPRIEDADE>Clinica</PROPRIEDADE>
+			<HASH>88C526445A071760037695A4E3466248</HASH>
+		</CLINICA>
+		<DATAINICIAL>
+			<TABELA>TV_EXCLUSAO_ESCALA</TABELA>
+			<NOME>DATAINICIAL</NOME>
+			<LEGENDAFORMULARIO>Data inicial</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Data inicial</LEGENDAGRADE>
+			<ORDEM>100</ORDEM>
+			<DICA>Data inicial base para exclusão de escalas</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>5</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>128</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\fbidis\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\ltrpar\lang1046\f0\fs16 SMS 170869
+\par 
+\par }</OBSERVACOES>
+			<PROPRIEDADE>Data inicial</PROPRIEDADE>
+			<HASH>D9C3B56C88CEAA1D6ED1E6FCCA77ECF5</HASH>
+		</DATAINICIAL>
+		<ESPECIALIDADE>
+			<TABELA>TV_EXCLUSAO_ESCALA</TABELA>
+			<NOME>ESPECIALIDADE</NOME>
+			<LEGENDAFORMULARIO>Especialidade</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Especialidade</LEGENDAGRADE>
+			<ORDEM>090</ORDEM>
+			<DICA>Especialidade</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>S</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>6</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR>SAM_PRESTADOR_ESPECIALIDADE</PESQUISAR>
+			<RESULTADO>SAM_PRESTADOR_ESPECIALIDADE|ESPECIALIDADE</RESULTADO>
+			<TEXTO>A.PRESTADOR IN (SELECT PRESTADOR 
+                        FROM CLI_RECURSO
+                       WHERE HANDLE = @RECURSO) 
+        AND ESPECIALIDADE IN (SELECT ESPECIALIDADE FROM SAM_PRESTADOR_ESPECIALIDADE
+                               WHERE PRESTADOR = (SELECT C.PRESTADOR 
+                                                    FROM CLI_CLINICA C,
+                                                         CLI_RECURSO R
+                                                   WHERE R.CLINICA = C.HANDLE 
+                                                     AND R.HANDLE = @RECURSO)
+                                 AND NOT EXISTS (SELECT 1 FROM SAM_MEMBRO_ESPECIALIDADE
+                                                  WHERE SAM_MEMBRO_ESPECIALIDADE.ESPECIALIDADE = SAM_PRESTADOR_ESPECIALIDADE.ESPECIALIDADE
+                                                    AND SAM_MEMBRO_ESPECIALIDADE.CORPOCLINICO = (SELECT HANDLE
+                                                                                                   FROM SAM_PRESTADOR_PRESTADORDAENTID
+                                                                                                  WHERE ENTIDADE = (SELECT C.PRESTADOR 
+                                                                                                                      FROM CLI_CLINICA C,
+                                                                                                                           CLI_RECURSO R
+                                                                                                                     WHERE R.CLINICA = C.HANDLE 
+                                                                                                                       AND R.HANDLE = @RECURSO)
+                                                                                                    AND PRESTADOR = (SELECT PRESTADOR FROM CLI_RECURSO
+                                                                                                                      WHERE HANDLE = @RECURSO))))</TEXTO>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>40</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\fbidis\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\ltrpar\lang1046\f0\fs16 SMS 170869
+\par 
+\par }</OBSERVACOES>
+			<PROPRIEDADE>Especialidade</PROPRIEDADE>
+			<HASH>83BFC0A12ADFF89D5E7C3D48D189D0F8</HASH>
+		</ESPECIALIDADE>
+		<RECURSO>
+			<TABELA>TV_EXCLUSAO_ESCALA</TABELA>
+			<NOME>RECURSO</NOME>
+			<LEGENDAFORMULARIO>Recurso</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Recurso</LEGENDAGRADE>
+			<ORDEM>080</ORDEM>
+			<DICA>Recurso vinculado à escala</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>6</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR>CLI_RECURSO</PESQUISAR>
+			<RESULTADO>CLI_RECURSO|PRESTADOR</RESULTADO>
+			<TEXTO>A.CLINICA = @CLINICA</TEXTO>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>40</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\fbidis\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\ltrpar\lang1046\f0\fs16 SMS 170869
+\par }</OBSERVACOES>
+			<PROPRIEDADE>Recurso</PROPRIEDADE>
+			<HASH>768E07A2D74FE19EC9E930ED95E1E808</HASH>
+		</RECURSO>
+		<TIPO>
+			<TABELA>TV_EXCLUSAO_ESCALA</TABELA>
+			<NOME>TIPO</NOME>
+			<LEGENDAFORMULARIO>Tipo</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Tipo</LEGENDAGRADE>
+			<ORDEM>060</ORDEM>
+			<DICA>Indica se é uma escala ou uma indisponibilidade</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>18</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO>1#Escala|E|S|</TEXTO>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>1</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\fbidis\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+\viewkind4\uc1\pard\ltrpar\lang1046\f0\fs16 SMS 170869\f1 
+\par }</OBSERVACOES>
+			<PROPRIEDADE>Tipo</PROPRIEDADE>
+			<HASH>D7172B58989E1CC26D75AB68C1E45CB3</HASH>
+		</TIPO>
+	</Campos>
+	<EntidadesEspecializadas>
+		<Benner.Saude.Web.Clinica.TabelasVirtuais.ExclusaoEscalas>
+			<Z_GRUPO/>
+			<ENTIDADE>TV_EXCLUSAO_ESCALA</ENTIDADE>
+			<TIPO>Benner.Saude.Web.Clinica.TabelasVirtuais.ExclusaoEscalas</TIPO>
+			<ARQUIVO>Benner.Saude.Web.Clinica.TabelasVirtuais</ARQUIVO>
+			<ANCESTRAL/>
+			<INTERFACE/>
+			<HASH>7E99D3E9442D2F5308889EA6C99CD4AD</HASH>
+		</Benner.Saude.Web.Clinica.TabelasVirtuais.ExclusaoEscalas>
+	</EntidadesEspecializadas>
+</Tabela>

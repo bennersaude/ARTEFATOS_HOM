@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.CallBusinessComponent.ComponenteChamadaNegocio</TIPO>
+	<ARQUIVO>Benner.Saude.CallBusinessComponent</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.TabelaVirtual.ICallBusinessComponent, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F4D25E3D42917D602EA0BD9A87A99EF7</HASH>
+</ObjetoNegocio>

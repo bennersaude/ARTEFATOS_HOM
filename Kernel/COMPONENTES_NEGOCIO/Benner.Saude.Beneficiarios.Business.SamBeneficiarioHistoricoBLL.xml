@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamBeneficiarioHistoricoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamBeneficiarioHistorico, Benner.Saude.Entidades</INTERFACE>
+	<HASH>40B8382B3F2AAF025EA306EA331D5234</HASH>
+</ObjetoNegocio>

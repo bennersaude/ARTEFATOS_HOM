@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>9A7B5650774E6A61183F964CE87898A5</HASH>
+		<NOME>2.2.6 Carga de Coberturas</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Eventos</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

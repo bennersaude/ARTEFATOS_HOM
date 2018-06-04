@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Integracoes.Sei.IntegracaoSei</TIPO>
+	<ARQUIVO>Benner.Saude.Integracoes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Integracoes.Sei.Interface.IIntegracaoSei, Benner.Saude.Integracoes</INTERFACE>
+	<HASH>0958D10D0BEA1D3667CDEB50AC832461</HASH>
+</ObjetoNegocio>

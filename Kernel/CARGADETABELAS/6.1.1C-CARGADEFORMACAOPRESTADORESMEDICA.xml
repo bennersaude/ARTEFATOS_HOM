@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>8CECB879BD58487A58D9E81F63E152CA</HASH>
+		<NOME>6.1.1C-CARGADEFORMACAOPRESTADORESMEDICA</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>010</ORDEM>
+		<LEGENDA>6.1.1c - Carga de formacao prestadores</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>O</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Tabelas>
+		<_1_EMDIGITACAO>
+			<HASH>55731B5D017FD8647E4D22CD3FF164F1</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>1_EMDIGITACAO</NOME>
+			<ORDEM>050</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.2. CARGA DE PEG'S DIGITAÇÃO</CARREGAR>
+			<LEGENDA>Em Digitação</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P  
+                      WHERE P.SITUACAO = '1' 
+                        AND P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO = 2
+                                 OR  (P.TABREGIMEPGTO =  1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO>24</CODIGOINTERNO>
+		</_1_EMDIGITACAO>
+		<_2_EMCONFERENCIA>
+			<HASH>51F4DB8A3BEED77A21ABF012CB13F64A</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>2_EMCONFERENCIA</NOME>
+			<ORDEM>060</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.1 AB - CARGA DE PEG'S CONFERENCIA</CARREGAR>
+			<LEGENDA>Em Conferência</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P  
+                      WHERE P.SITUACAO = '2' 
+                        AND P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO =  2
+                                 OR  (P.TABREGIMEPGTO = 1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>S</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO>24</CODIGOINTERNO>
+		</_2_EMCONFERENCIA>
+		<_3_PRONTO>
+			<HASH>25A789234FD6C7F261C392CB27F8C4A1</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>3_PRONTO</NOME>
+			<ORDEM>070</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.1 - Carga de PEG's</CARREGAR>
+			<LEGENDA>Pronto</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P   
+                      WHERE P.SITUACAO = '3' 
+                        AND P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO =  2
+                                 OR  (P.TABREGIMEPGTO = 1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>S</ALTERAR>
+			<INCLUIR>S</INCLUIR>
+			<EXCLUIR>N</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO>24</CODIGOINTERNO>
+		</_3_PRONTO>
+		<_4_FATURADO>
+			<HASH>C98E20D03D36F1034AD499BA8B5ADA9D</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>4_FATURADO</NOME>
+			<ORDEM>080</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.1 - Carga de Peg's ReadOnly</CARREGAR>
+			<LEGENDA>Faturado</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P  
+                      WHERE P.SITUACAO = '4' 
+                        AND P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO = 2
+                                 OR  (P.TABREGIMEPGTO = 1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>N</ALTERAR>
+			<INCLUIR>N</INCLUIR>
+			<EXCLUIR>N</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</_4_FATURADO>
+		<_5_DEVOLVIDOS>
+			<HASH>FE767006175A3626088D04EFFB858CEF</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>5_DEVOLVIDOS</NOME>
+			<ORDEM>090</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.1 B- CARGA DE PEG'S READONLYTOTAL</CARREGAR>
+			<LEGENDA>Devolvidos</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P  
+                      WHERE P.SITUACAO = '9' 
+                        AND P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO = 2
+                                 OR  (P.TABREGIMEPGTO =  1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>N</ALTERAR>
+			<INCLUIR>N</INCLUIR>
+			<EXCLUIR>N</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</_5_DEVOLVIDOS>
+		<TODOS>
+			<HASH>7C697AFA1DB7506CC676F9782D0C257E</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>TODOS</NOME>
+			<ORDEM>100</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_PEG</TABELA>
+			<TEXTO1>PEG</TEXTO1>
+			<TEXTO2>QTDGUIA</TEXTO2>
+			<CARREGAR>6.1.1.1 B- CARGA DE PEG'S READONLYTOTAL</CARREGAR>
+			<LEGENDA>Todos</LEGENDA>
+			<SQLESPECIAL>A.HANDLE IN (SELECT DISTINCT P.HANDLE 
+                       FROM SAM_PEG P   
+                      WHERE P.FILIAL = @TABELA|FILIAIS|HANDLE 
+                        AND P.COMPETENCIA = @TABELA|SAM_COMPETPEG|HANDLE
+                        AND P.TIPOPEG = @TABELA|SAM_TIPOPEG|HANDLE
+                        AND (P.TABREGIMEPGTO = 2
+                                 OR  (P.TABREGIMEPGTO =  1
+                                      AND 'A' IN (SELECT 'A'
+                                                           FROM SAM_PRESTADOR           PE,
+                                                                     SAM_TIPOPRESTADOR   TP
+                                                        WHERE PE.HANDLE = P.RECEBEDOR
+                                                            AND TP.HANDLE = PE.TIPOPRESTADOR
+                                                            AND (TP.FORMACAOPRESTADOR &lt;&gt; 'O')
+                                                        )
+                                      )
+                                 )
+                      )
+AND A.PEGORIGINAL IS NULL</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>N</ALTERAR>
+			<INCLUIR>N</INCLUIR>
+			<EXCLUIR>N</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>1024</FLAGS>
+			<CODIGOINTERNO/>
+		</TODOS>
+	</Tabelas>
+</Arvore>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.FilaIntegracao.SpecialPharmus.AdmParametrosSpecialPharmusBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.IAdmParametrosSpecialPharmus, Benner.Saude.Entidades</INTERFACE>
+	<HASH>09E43533AEF24FDB8516345563B756B3</HASH>
+</ObjetoNegocio>

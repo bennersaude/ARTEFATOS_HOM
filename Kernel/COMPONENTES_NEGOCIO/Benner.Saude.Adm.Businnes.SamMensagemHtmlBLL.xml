@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamMensagemHtmlBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISamMensagemHtml, Benner.Saude.Entidades</INTERFACE>
+	<HASH>9BFBC97DA3A712B9AC7E1B1E0795530F</HASH>
+</ObjetoNegocio>

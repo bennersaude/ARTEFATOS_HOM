@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>3BDF48D23DA9CE982D11799E0A4049B3</HASH>
+		<NOME>6.1.0b Filiais - nao usada</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Filiais</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_6.1.1B_t_Carga_t_de_t_situacoes_t_de_t_PEG_t_Filiais>
+			<HASH>E455E875C3CFBEB74E5E541A0A89FB75</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>6.1.1B Carga de situacoes de PEG Filiais</CARREGAR>
+		</_6.1.1B_t_Carga_t_de_t_situacoes_t_de_t_PEG_t_Filiais>
+		<_6.1.1_t_Carga_t_de_t_situacoes_t_de_t_PEG>
+			<HASH>3C4F936FFD2D22FBB256040FC6E703A8</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>6.1.1 Carga de situacoes de PEG</CARREGAR>
+		</_6.1.1_t_Carga_t_de_t_situacoes_t_de_t_PEG>
+	</Pastas>
+</Arvore>

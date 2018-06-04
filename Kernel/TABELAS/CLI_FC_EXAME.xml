@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>3B6B9E760DB1256631707E25F3761CB1</HASH>
+		<NOME>CLI_FC_EXAME</NOME>
+		<APELIDO/>
+		<LEGENDA>Tabela de relacionamento entre formulários customizados e exames</LEGENDA>
+		<LOCAL>N</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>8388608</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA/>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES/>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>1</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE>CliFCExame</ENTIDADE>
+	</Configuracoes>
+	<Campos>
+		<EXAME>
+			<TABELA>CLI_FC_EXAME</TABELA>
+			<NOME>EXAME</NOME>
+			<LEGENDAFORMULARIO>Exame</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Exame</LEGENDAGRADE>
+			<ORDEM>020</ORDEM>
+			<DICA>Exame a ser relacionado com o formulário customizado.</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>6</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR>SAM_TGE</PESQUISAR>
+			<RESULTADO>SAM_TGE|DESCRICAO</RESULTADO>
+			<TEXTO>SAM_TGE.PROCEDIMENTOPROPRIO &lt;&gt; 'S'                                         AND SAM_TGE.INATIVO &lt;&gt; 'S'                                             AND SAM_TGE.ULTIMONIVEL = 'S'                                          AND NOT EXISTS (SELECT 1                                                                 FROM SAM_TGE_GRAU G, SAM_PARAMETROSPROCCONTAS P  
+                     WHERE G.GRAUPRINCIPAL = 'S'                       
+                       AND (P.GRAUPRINCIPALMEDICAMENTO = G.GRAU OR     
+                            P.GRAUPRINCIPALMATERIAL = G.GRAU OR        
+                            P.GRAUPRINCIPALSOLUCAO = G.GRAU OR         
+                            P.GRAUPRINCIPALMATB = G.GRAU OR            
+                            P.GRAUPRINCIPALMATS = G.GRAU OR            
+                            P.GRAUPRINCIPALMEDB = G.GRAU OR            
+                            P.GRAUPRINCIPALMEDS = G.GRAU OR            
+                            P.GRAUPRINCIPALSOLB = G.GRAU OR            
+                            P.GRAUPRINCIPALSOLS = G.GRAU)              
+                        AND G.EVENTO = SAM_TGE.HANDLE)                                         AND EXISTS (SELECT 1                                                                 FROM SAM_TGE_GRAU G                                                   WHERE G.GRAU IS NOT NULL                                                 AND G.EVENTO = SAM_TGE.HANDLE)</TEXTO>
+			<FLAGS>4096</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+\viewkind4\uc1\pard\lang1046\f0\fs18 SMS 287245\f1\fs24 
+\par \f0\fs18 
+\par }</OBSERVACOES>
+			<PROPRIEDADE/>
+			<HASH>79F6F478591E1CF31A523E70D813A3FA</HASH>
+		</EXAME>
+		<MODELO>
+			<TABELA>CLI_FC_EXAME</TABELA>
+			<NOME>MODELO</NOME>
+			<LEGENDAFORMULARIO>Modelo</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Modelo</LEGENDAGRADE>
+			<ORDEM>010</ORDEM>
+			<DICA>Modelo de formulário customizável. Apenas modelos do tipo "Resultado de Exame" serão apresentados.</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>6</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR>CLI_EF_MODELO</PESQUISAR>
+			<RESULTADO>CLI_EF_MODELO|DESCRICAO</RESULTADO>
+			<TEXTO>CLI_EF_MODELO.TIPO IN (SELECT HANDLE FROM CLI_FC_TIPO WHERE CODIGO = 2)</TEXTO>
+			<FLAGS>4096</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}}
+\viewkind4\uc1\pard\lang1046\f0\fs18 SMS 287245
+\par 
+\par }</OBSERVACOES>
+			<PROPRIEDADE/>
+			<HASH>D17886814567C91012276E0021DF10B2</HASH>
+		</MODELO>
+	</Campos>
+	<EntidadesEspecializadas>
+		<Benner.Saude.Entidades.Clinica.CliFCExame>
+			<Z_GRUPO/>
+			<ENTIDADE>CLI_FC_EXAME</ENTIDADE>
+			<TIPO>Benner.Saude.Entidades.Clinica.CliFCExame</TIPO>
+			<ARQUIVO>Benner.Saude.Entidades</ARQUIVO>
+			<ANCESTRAL/>
+			<INTERFACE/>
+			<HASH>5A14B62A1383848C06D8A69C9EAEF1DE</HASH>
+		</Benner.Saude.Entidades.Clinica.CliFCExame>
+	</EntidadesEspecializadas>
+</Tabela>

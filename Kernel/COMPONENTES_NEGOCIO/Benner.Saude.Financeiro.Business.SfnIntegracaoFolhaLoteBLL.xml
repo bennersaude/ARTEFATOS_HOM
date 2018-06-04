@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.SfnIntegracaoFolhaLoteBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.Interface.ISfnIntegracaoFolhaLote, Benner.Saude.Entidades</INTERFACE>
+	<HASH>3AE745C3776E738F6262DC98E189CE8E</HASH>
+</ObjetoNegocio>

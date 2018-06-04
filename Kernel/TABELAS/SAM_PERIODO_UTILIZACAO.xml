@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>78822D56C27FC1DB28B7C1EFAA3FC93C</HASH>
+		<NOME>SAM_PERIODO_UTILIZACAO</NOME>
+		<APELIDO/>
+		<LEGENDA>SAM_PERIODO_UTILIZACAO</LEGENDA>
+		<LOCAL>N</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>8388608</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA/>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>1</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE>SamPeriodoUtilizacao</ENTIDADE>
+	</Configuracoes>
+	<Campos>
+		<ANOBASE>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>ANOBASE</NOME>
+			<LEGENDAFORMULARIO>Ano base</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Ano base</LEGENDAGRADE>
+			<ORDEM>035</ORDEM>
+			<DICA>Ano base</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>5</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>16384</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>AnoBase</PROPRIEDADE>
+			<HASH>41A849D411B2E650870D4674FB2DE742</HASH>
+		</ANOBASE>
+		<APLICAREGRASEMESTREANTERIOR>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>APLICAREGRASEMESTREANTERIOR</NOME>
+			<LEGENDAFORMULARIO>Aplica regra semestre anterior</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Aplica regra semestre anterior</LEGENDAGRADE>
+			<ORDEM>015</ORDEM>
+			<DICA>O semestre anterior, em relação a data atual, será exibido apenas no último dia útil em diante do segundo mês seguinte. Ex: Semestre atual: JUL/DEZ. O semestre anterior JAN/JUN será exibido apenas no último dia útil em diante a partir de Agosto.</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>S</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>4</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>AplicaRegraSemestreAnterior</PROPRIEDADE>
+			<HASH>70D84DBD09BEBBCD20695B875138B9BD</HASH>
+		</APLICAREGRASEMESTREANTERIOR>
+		<QTDEANTERIORES>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>QTDEANTERIORES</NOME>
+			<LEGENDAFORMULARIO>Quantidade semestres anteriores</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Quantidade semestres anteriores</LEGENDAGRADE>
+			<ORDEM>025</ORDEM>
+			<DICA>Quantidade de semestres anteriores que serão disponibilizados</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>1</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO>1</MINIMO>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>QuantidadeSemestresAnteriores</PROPRIEDADE>
+			<HASH>830B329FC1565219204A18E88C44ED7E</HASH>
+		</QTDEANTERIORES>
+		<RESULTADO>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>RESULTADO</NOME>
+			<LEGENDAFORMULARIO>Resultado na data atual</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Resultado na data atual</LEGENDAGRADE>
+			<ORDEM>055</ORDEM>
+			<DICA>Resultado na data atual</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>S</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>16</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR>*</ASSUMIR>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>ResultadoNaDataAtual</PROPRIEDADE>
+			<HASH>B3644EE87D0FD2606D840431E0742066</HASH>
+		</RESULTADO>
+		<RESULTADOTEXTO>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>RESULTADOTEXTO</NOME>
+			<LEGENDAFORMULARIO>Resultado da configuração</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Resultado da configuração</LEGENDAGRADE>
+			<ORDEM>050</ORDEM>
+			<DICA/>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>16</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR>Resultado da configuração</ASSUMIR>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>ResultadoConfiguracao</PROPRIEDADE>
+			<HASH>4D215FD80324B46BB96DCABFEF0D685C</HASH>
+		</RESULTADOTEXTO>
+		<SEMESTRE>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>SEMESTRE</NOME>
+			<LEGENDAFORMULARIO>Semestre</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Semestre</LEGENDAGRADE>
+			<ORDEM>045</ORDEM>
+			<DICA>Semestre</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>18</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA>2</LARGURA>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR>1</ASSUMIR>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO>1#Primeiro semestre|1|S|Segundo semestre|2|S|</TEXTO>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>1</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>Semestre</PROPRIEDADE>
+			<HASH>2F2143CFEFE98D0AF574958F064A0430</HASH>
+		</SEMESTRE>
+		<TABREGRASEMESTRE>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>TABREGRASEMESTRE</NOME>
+			<LEGENDAFORMULARIO>Regra disponibilização dos semestres</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Regra disponibilização dos semestres</LEGENDAGRADE>
+			<ORDEM>020</ORDEM>
+			<DICA>Regras para disponibilização dos semestres. No semestre base serão disponibilizados todos os períodos a partir do semestre informado. No semestre atual serão disponibilizados semestres anteriores ao atual</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>10</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO>2</ASSUMIRINTEIRO>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO>1#Semestre Base|1|S|ANOBASE|S|SEMESTRE|S|;Semestre Atual|2|S|QTDEANTERIORES|S|;</TEXTO>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>RegraDisponibilizacaoDosSemestres</PROPRIEDADE>
+			<HASH>65BFC499E79E1215BE0E9BF8036AEB98</HASH>
+		</TABREGRASEMESTRE>
+		<VISUALIZARSEMESTREATUAL>
+			<TABELA>SAM_PERIODO_UTILIZACAO</TABELA>
+			<NOME>VISUALIZARSEMESTREATUAL</NOME>
+			<LEGENDAFORMULARIO>Visualizar semestre atual</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Visualizar semestre atual</LEGENDAGRADE>
+			<ORDEM>010</ORDEM>
+			<DICA>Com essa opção marcada, será possível visualizar o período de utilização do semestre atual</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>4</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>0</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 SMS 355900 - RESOLU\'c7\'c3O NORMATIVA RN N\'ba 389, DE 26 DE NOVEMBRO DE 2015 (Complemento da SMS 337272- Itens com prazo para 1\'ba de agosto de 2016) - Utiliza\'e7\'e3o de servi\'e7os e consulta de anexos\par
+}</OBSERVACOES>
+			<PROPRIEDADE>VisualizarSemestreAtual</PROPRIEDADE>
+			<HASH>56BF531201AAA51E74251F931E690AF9</HASH>
+		</VISUALIZARSEMESTREATUAL>
+	</Campos>
+	<EntidadesEspecializadas>
+		<Benner.Saude.Entidades.Beneficiarios.Tabelas.SamPeriodoUtilizacao>
+			<Z_GRUPO/>
+			<ENTIDADE>SAM_PERIODO_UTILIZACAO</ENTIDADE>
+			<TIPO>Benner.Saude.Entidades.Beneficiarios.Tabelas.SamPeriodoUtilizacao</TIPO>
+			<ARQUIVO>Benner.Saude.Entidades</ARQUIVO>
+			<ANCESTRAL/>
+			<INTERFACE/>
+			<HASH>8F3D1E770495C954EE73DED43C379EB2</HASH>
+		</Benner.Saude.Entidades.Beneficiarios.Tabelas.SamPeriodoUtilizacao>
+	</EntidadesEspecializadas>
+</Tabela>

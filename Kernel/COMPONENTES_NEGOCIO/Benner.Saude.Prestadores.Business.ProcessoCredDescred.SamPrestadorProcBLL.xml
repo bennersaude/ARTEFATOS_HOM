@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.ProcessoCredDescred.SamPrestadorProcBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.ProcessoCredDescred.Interface.ISamPrestadorProc, Benner.Saude.Entidades</INTERFACE>
+	<HASH>A2EB4F9D405250848D9971EF83B96CE9</HASH>
+</ObjetoNegocio>

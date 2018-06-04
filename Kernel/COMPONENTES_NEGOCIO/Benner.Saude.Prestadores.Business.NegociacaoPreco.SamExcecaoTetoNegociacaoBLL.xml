@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.NegociacaoPreco.SamExcecaoTetoNegociacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.NegociacaoPreco.Interface.ISamExcecaoTetoNegociacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F34936BE6E5254CEDD60448CC3621EB8</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,8 @@
+﻿'HASH: 378A3FC05E155E1530DA47626AAFBD16
+'Macro: SAM_CARENCIA
+
+
+Public Sub TABLE_AfterScroll()
+  BOTAOGERAREVENTOS.Visible=False
+  
+End Sub

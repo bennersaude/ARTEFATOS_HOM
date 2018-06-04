@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamAlertaBenefTipoAutorizBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamAlertaBenefTipoAutoriz, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F14F1F87F6A9D2BF64FC8B408A39DA96</HASH>
+</ObjetoNegocio>

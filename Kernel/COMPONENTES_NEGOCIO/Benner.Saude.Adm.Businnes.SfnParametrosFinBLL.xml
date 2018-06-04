@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SfnParametrosFinBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISfnParametrosFin, Benner.Saude.Entidades</INTERFACE>
+	<HASH>01F95B91B7D3504A39601B8B4FA81D02</HASH>
+</ObjetoNegocio>

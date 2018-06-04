@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamContratoAutoGestaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Contrato.ISamContratoAutoGestao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>C90AEF7BD171BB2110B2B244A6C0F04E</HASH>
+</ObjetoNegocio>

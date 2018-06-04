@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.ReajustePreco.SamReajustePrcParamBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.ReajustePreco.Interface.ISamReajustePrcParam, Benner.Saude.Entidades</INTERFACE>
+	<HASH>9D2F732E828CC0C69CE7AE68D90EE1F7</HASH>
+</ObjetoNegocio>

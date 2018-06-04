@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>D69B3C88CF4C1CBB491BC75E7FA62FDA</HASH>
+		<COMANDO>BLOGAUDIT</COMANDO>
+		<ORDEM>002</ORDEM>
+		<LEGENDA>Log e auditoria</LEGENDA>
+		<DICA>Exibe o log de alterações do registro ou tabela selecionada</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO>CS.LOGVIEWCOMMAND</EXTENSAO>
+		<SISTEMA>S</SISTEMA>
+		<SOMENTEDESKTOP>N</SOMENTEDESKTOP>
+		<BOTAO>N</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

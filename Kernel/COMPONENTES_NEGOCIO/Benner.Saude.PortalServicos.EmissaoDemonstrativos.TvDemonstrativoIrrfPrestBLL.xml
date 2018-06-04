@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.EmissaoDemonstrativos.TvDemonstrativoIrrfPrestBLL</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.EmissaoDemonstrativos</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.TabelaVirtual.Interface.ITvDemonstrativoIrrfPrest, Benner.Saude.Entidades</INTERFACE>
+	<HASH>2EE2B02D210FB065D2A55B991E77B0BF</HASH>
+</ObjetoNegocio>

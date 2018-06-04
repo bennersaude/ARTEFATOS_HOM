@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>15CF5C947B73058E090B3E38DD80BAB8</HASH>
+		<COMANDO>BDEBUGGER</COMANDO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>Online debugger</LEGENDA>
+		<DICA>Exibe as mensagens internas do sistema durante sua execução.</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO>INTERNALDEBUGGER</EXTENSAO>
+		<SISTEMA>S</SISTEMA>
+		<SOMENTEDESKTOP>N</SOMENTEDESKTOP>
+		<BOTAO>N</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

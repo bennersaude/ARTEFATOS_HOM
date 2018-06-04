@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamAutorizAnexoQuimioProcBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Atendimento.Interfaces.ISamAutorizAnexoQuimioProc, Benner.Saude.Atendimento.Interfaces</INTERFACE>
+	<HASH>FEDDC70D717A91B7DC2A09F2B788E336</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>8075769DF6937B75290E367CF88EAE14</HASH>
+		<NOME>20.5.1_GUIASALCADA</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>000</ORDEM>
+		<LEGENDA>Guias</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Tabelas>
+		<GUIASALCADA>
+			<HASH>72F72C95A1717B94FE43CF6685610845</HASH>
+			<VISAO/>
+			<CAMPOLIGACAO/>
+			<NOME>GUIASALCADA</NOME>
+			<ORDEM>050</ORDEM>
+			<TABELAASSOCIATIVA/>
+			<EXTENSAO/>
+			<TABELA>SAM_GUIA</TABELA>
+			<TEXTO1>DATAATENDIMENTO</TEXTO1>
+			<TEXTO2>GUIA</TEXTO2>
+			<CARREGAR/>
+			<LEGENDA>Guias</LEGENDA>
+			<SQLESPECIAL>A.SITUACAO='2' 
+AND A.PENDENCIA = 'B' 
+AND (       A.LOCALATENDIMENTO = (SELECT  ALPGTO.LOCALATENDIMENTO 
+                                                               FROM SAM_ALCADAPAGTO ALPGTO
+                                                             WHERE ALPGTO.HANDLE =                                                                           @TABELA|SAM_ALCADAPAGTO) 
+         OR (SELECT ALPGTO.LOCALATENDIMENTO 
+                   FROM SAM_ALCADAPAGTO ALPGTO
+                WHERE ALPGTO.HANDLE = @TABELA|SAM_ALCADAPAGTO) IS NULL) 
+AND (       A.REGIMEATENDIMENTO = (SELECT ALPGTO.REGIMEATENDIMENTO 
+                                                                 FROM SAM_ALCADAPAGTO ALPGTO
+                                                               WHERE ALPGTO.HANDLE =                                                                             @TABELA|SAM_ALCADAPAGTO) 
+         OR (SELECT ALPGTO.REGIMEATENDIMENTO 
+                   FROM SAM_ALCADAPAGTO ALPGTO
+                 WHERE ALPGTO.HANDLE = @TABELA|SAM_ALCADAPAGTO) IS NULL ) 
+AND (SELECT SUM(GE.VALORAPRESENTADO) 
+            FROM SAM_GUIA_EVENTOS GE
+          WHERE A.HANDLE = GE.GUIA ) &lt;= (SELECT ALPGTO.VALORLIMITE 
+                                                                  FROM SAM_ALCADAPAGTO ALPGTO
+                                                                WHERE ALPGTO.HANDLE =                                                                              @TABELA|SAM_ALCADAPAGTO)
+AND (@TABELA|SAM_ALCADAPAGTO IN (SELECT ALPGTO.HANDLE 
+                                                                     FROM SAM_ALCADAPAGTO ALPGTO
+                                                                   WHERE ALPGTO.VALORLIMITE =
+                                                                               (SELECT  MIN(ALPGTO.VALORLIMITE) 
+                                                                                 FROM SAM_ALCADAPAGTO ALPGTO
+                                                                                 WHERE ALPGTO.VALORLIMITE &gt; (SELECT                                                                                                     SUM(GE.VALORAPRESENTADO)                                                                                                          FROM SAM_GUIA_EVENTOS GE
+                                                                                                 WHERE GE.GUIA = A.HANDLE )
+                                                                                                 AND 
+                                                            ((A.LOCALATENDIMENTO =
+                                                                  (SELECT ALPGTO.LOCALATENDIMENTO 
+                                                                    FROM SAM_ALCADAPAGTO ALPGTO
+                                                                    WHERE ALPGTO.HANDLE =                                                                                   @TABELA|SAM_ALCADAPAGTO) AND                                                                                                A.LOCALATENDIMENTO IS NOT NULL)
+                                                                                  OR ALPGTO.LOCALATENDIMENTO IS NULL) 
+                                                                                                                 AND ((A.REGIMEATENDIMENTO = (SELECT ALPGTO.REGIMEATENDIMENTO 
+                                                                                                                                                                          FROM SAM_ALCADAPAGTO ALPGTO
+                                                                                                                                                                         WHERE ALPGTO.HANDLE = @TABELA|SAM_ALCADAPAGTO)  AND                                                             A.REGIMEATENDIMENTO  IS NOT NULL)
+                                                                                                                          OR ALPGTO.REGIMEATENDIMENTO IS NULL )
+                                                                                                           )
+                                                                   )
+)</SQLESPECIAL>
+			<SOCOMANDOS>N</SOCOMANDOS>
+			<FORMCLASS/>
+			<PERMISSAO/>
+			<IGNORARPAGINAS>N</IGNORARPAGINAS>
+			<UMREGISTRO>N</UMREGISTRO>
+			<LER>S</LER>
+			<ALTERAR>N</ALTERAR>
+			<INCLUIR>N</INCLUIR>
+			<EXCLUIR>N</EXCLUIR>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CODIGOINTERNO/>
+		</GUIASALCADA>
+	</Tabelas>
+</Arvore>

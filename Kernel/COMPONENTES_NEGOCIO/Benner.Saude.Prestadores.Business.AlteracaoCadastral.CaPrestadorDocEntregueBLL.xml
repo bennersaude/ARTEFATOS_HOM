@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.AlteracaoCadastral.CaPrestadorDocEntregueBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Interface.ICaPrestadorDocEntregue, Benner.Saude.Entidades</INTERFACE>
+	<HASH>ED2345BCE0C5301435E8C570921924A4</HASH>
+</ObjetoNegocio>

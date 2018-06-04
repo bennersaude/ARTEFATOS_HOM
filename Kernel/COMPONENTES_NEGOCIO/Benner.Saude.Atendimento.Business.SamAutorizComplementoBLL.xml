@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamAutorizComplementoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Atendimento.Interfaces.ISamAutorizComplemento, Benner.Saude.Atendimento.Interfaces</INTERFACE>
+	<HASH>97861753EC120EE820C6DECB467221C2</HASH>
+</ObjetoNegocio>

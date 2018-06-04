@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>3F0E3168563BA06A8CC774EAE806249A</HASH>
+		<NOME>TV_FILTRO0087</NOME>
+		<APELIDO/>
+		<LEGENDA>TV_FILTRO0087</LEGENDA>
+		<LOCAL>V</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>8388608</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA>Site: 9907</TOPICOAJUDA>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang1046\f0\fs16 Relat\'f3rios:
+\par INSS001 - Demonstrativo de Faturamento de INSS
+\par INSS001 - Relat\'f3rio de INSS sobre pagamentos - Anal\'edtico
+\par INSS002 - Relat\'f3rio de INSS sobre pagamentos - Sint\'e9tico
+\par INSS002 - Relat\'f3rio de provis\'e3o de INSS sobre pagamentos
+\par INSS007 - Faturamento de INSS - Classe Gerencial - Sint\'e9tico
+\par INSS008 - Faturamento de INSS - Centro Custo - Sint\'e9tico
+\par }</OBSERVACOES>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>2</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE/>
+	</Configuracoes>
+	<Campos>
+		<COMPETENCIA>
+			<TABELA>TV_FILTRO0087</TABELA>
+			<NOME>COMPETENCIA</NOME>
+			<LEGENDAFORMULARIO>Competência</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Competência</LEGENDAGRADE>
+			<ORDEM>050</ORDEM>
+			<DICA/>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>5</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO/>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>8192</FLAGS>
+			<FLAGS1>8</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES/>
+			<PROPRIEDADE/>
+			<HASH>76BA2CEA0A26E5F4438DEE45812ACF8F</HASH>
+		</COMPETENCIA>
+	</Campos>
+	<EntidadesEspecializadas>
+		<Benner.Saude.Entidades.TabelaVirtual.Tv_Filtro0087>
+			<Z_GRUPO/>
+			<ENTIDADE>TV_FILTRO0087</ENTIDADE>
+			<TIPO>Benner.Saude.Entidades.TabelaVirtual.Tv_Filtro0087</TIPO>
+			<ARQUIVO>Benner.Saude.Entidades</ARQUIVO>
+			<ANCESTRAL/>
+			<INTERFACE/>
+			<HASH>3A59D68FEA607F205173745F18EEB5FF</HASH>
+		</Benner.Saude.Entidades.TabelaVirtual.Tv_Filtro0087>
+	</EntidadesEspecializadas>
+</Tabela>

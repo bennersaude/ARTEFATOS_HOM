@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamPericiaRotImpAutorizBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Atendimento.Interfaces.ISamPericiaRotimpAutoriz, Benner.Saude.Entidades</INTERFACE>
+	<HASH>FFDB6A433F23FF1A3C7EF79BCEA0056E</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.Preco.Municipio.SamPrecoMunicipioDotacBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Preco.Municipio.ISamPrecoMunicipioDotac, Benner.Saude.Entidades</INTERFACE>
+	<HASH>EDA5244F460964970A903D4F1E099511</HASH>
+</ObjetoNegocio>

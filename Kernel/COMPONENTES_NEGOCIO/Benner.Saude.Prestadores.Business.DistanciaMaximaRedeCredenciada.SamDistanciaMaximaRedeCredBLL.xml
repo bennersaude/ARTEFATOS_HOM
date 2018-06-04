@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.DistanciaMaximaRedeCredenciada.SamDistanciaMaximaRedeCredBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.DistanciaMaximaRedeCredenciada.Interface.ISamDistanciaMaximaRedeCred, Benner.Saude.Entidades</INTERFACE>
+	<HASH>0DEBB21A66C27DCDD9693946AFC35470</HASH>
+</ObjetoNegocio>

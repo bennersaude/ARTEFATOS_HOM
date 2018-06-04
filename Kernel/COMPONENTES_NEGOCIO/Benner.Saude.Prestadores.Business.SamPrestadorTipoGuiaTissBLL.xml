@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.SamPrestadorTipoGuiaTissBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Interface.ISamPrestadorTipoGuiaTiss, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F7CA57A31714B2D639986E22D0BC46FF</HASH>
+</ObjetoNegocio>

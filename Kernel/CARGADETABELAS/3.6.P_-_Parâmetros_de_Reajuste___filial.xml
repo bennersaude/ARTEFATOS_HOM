@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>71E6BE0CD0CB54123A07BF287670E55B</HASH>
+		<NOME>3.6.P - Parâmetros de Reajuste / filial</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>001</ORDEM>
+		<LEGENDA>Parâmetros de Reajuste</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_3.6.Pa_t_-_t_Parâmetros_t__abrech_Abertos_fechach__t_____t_filiais>
+			<HASH>DEEE48DF861994C7BBFAB2ADB2D45717</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.6.Pa - Parâmetros (Abertos) / filiais</CARREGAR>
+		</_3.6.Pa_t_-_t_Parâmetros_t__abrech_Abertos_fechach__t_____t_filiais>
+		<_3.6.Pf_t_-_t_Parâmetros_t__abrech_Fechados_fechach__t_____t_filiais>
+			<HASH>691C329506239C78E72280EE2C5EDB5B</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.6.Pf - Parâmetros (Fechados) / filiais</CARREGAR>
+		</_3.6.Pf_t_-_t_Parâmetros_t__abrech_Fechados_fechach__t_____t_filiais>
+	</Pastas>
+</Arvore>

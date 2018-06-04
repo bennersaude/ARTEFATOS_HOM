@@ -1,0 +1,23 @@
+﻿'HASH: DD5FA396D69215439568D9D3E541DCBC
+'#Uses "*RegistrarLogAlteracao"
+
+Public Sub BOTAOGERAREVENTOS_OnClick()
+Dim Duplica As Object
+Dim UPD As Object
+
+Set UPD =NewQuery
+	
+UPD.Add("UPDATE SAM_ESPECIALIDADEGRUPO_EXEC")
+UPD.Add("   SET ESPECIALIDADE = :ESPECIALIDADE")
+UPD.Add(" WHERE ESPECIALIDADEGRUPO = :ESPECIALIDADEGRUPO")
+	
+Set Duplica =CreateBennerObject("SamDupEventos.Rotinas")
+  Duplica.Duplicar(CurrentSystem,"SAM_ESPECIALIDADEGRUPO_EXEC","ESPECIALIDADEGRUPO",RecordHandleOfTable("SAM_ESPECIALIDADEGRUPO"),"Gerar eventos")
+  Set Duplica =Nothing
+ 	
+ UPD.ParamByName("ESPECIALIDADE").Value =RecordHandleOfTable("SAM_ESPECIALIDADE")
+ UPD.ParamByName("ESPECIALIDADEGRUPO").Value =RecordHandleOfTable("SAM_ESPECIALIDADEGRUPO")
+ UPD.ExecSQL
+ RegistrarLogAlteracao "SAM_ESPECIALIDADEGRUPO", RecordHandleOfTable("SAM_ESPECIALIDADEGRUPO"), "BOTAOGERAREVENTOS"
+ RefreshNodesWithTable "SAM_ESPECIALIDADEGRUPO_EXEC"
+End Sub

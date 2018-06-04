@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<GrupoBits>
+	<Configuracoes>
+		<Z_GRUPO/>
+		<NOME>Composição do conselho</NOME>
+		<IDENTIFICADOR>COMPOSICAO DO CONSELHO</IDENTIFICADOR>
+		<HASH>A6D4E71E0F356176ED35116DB6F16C6D</HASH>
+	</Configuracoes>
+	<GrupoBitsItem>
+		<CONSELHO>
+			<Z_GRUPO/>
+			<NOME>Conselho</NOME>
+			<VALOR>1</VALOR>
+			<IDENTIFICADOR>CONSELHO</IDENTIFICADOR>
+		</CONSELHO>
+		<UF_t_OU_t_REGIAO>
+			<Z_GRUPO/>
+			<NOME>UF ou Região</NOME>
+			<VALOR>2</VALOR>
+			<IDENTIFICADOR>UF OU REGIAO</IDENTIFICADOR>
+		</UF_t_OU_t_REGIAO>
+		<INSCRICAO>
+			<Z_GRUPO/>
+			<NOME>Inscrição</NOME>
+			<VALOR>4</VALOR>
+			<IDENTIFICADOR>INSCRICAO</IDENTIFICADOR>
+		</INSCRICAO>
+	</GrupoBitsItem>
+</GrupoBits>

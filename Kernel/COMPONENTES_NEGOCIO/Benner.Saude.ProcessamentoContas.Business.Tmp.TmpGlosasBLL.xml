@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.Tmp.TmpGlosasBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.Tmp.Interfaces.ITmpGlosas, Benner.Saude.Entidades</INTERFACE>
+	<HASH>52B493431DEB471D8A10F1A67D0BA8CB</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.ExtratoCoParticipacao.ExtratoCoParticipacaoBusiness</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.ExtratoCoParticipacao</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.PortalServicos.ExtratoCoParticipacao.Interfaces.IExtratoCoParticipacao, Benner.Saude.PortalServicos.ExtratoCoParticipacao</INTERFACE>
+	<HASH>D844833617461E3A4FF208BEBEE1C3B9</HASH>
+</ObjetoNegocio>

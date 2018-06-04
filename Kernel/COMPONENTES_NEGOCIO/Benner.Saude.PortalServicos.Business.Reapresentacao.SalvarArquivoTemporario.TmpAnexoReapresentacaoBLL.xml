@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.Business.Reapresentacao.SalvarArquivoTemporario.TmpAnexoReapresentacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.PortalServicos.Interface.ITmpAnexoReapresentacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>5EEDDEA2457AEC1C262CDC45524FC0F4</HASH>
+</ObjetoNegocio>

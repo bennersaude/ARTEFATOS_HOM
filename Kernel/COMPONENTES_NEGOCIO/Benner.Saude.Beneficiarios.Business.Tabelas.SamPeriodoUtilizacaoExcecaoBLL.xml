@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.Tabelas.SamPeriodoUtilizacaoExcecaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamPeriodoUtilizacaoExcecao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>880AA132DC3CA8B7C1132A7E6E04F362</HASH>
+</ObjetoNegocio>

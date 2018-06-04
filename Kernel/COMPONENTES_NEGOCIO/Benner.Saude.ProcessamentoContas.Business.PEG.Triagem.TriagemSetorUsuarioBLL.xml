@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.PEG.Triagem.TriagemSetorUsuarioBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.PEG.Interface.ITriagemSetorUsuario, Benner.Saude.Entidades</INTERFACE>
+	<HASH>CCFA76696793072565137367588BD52A</HASH>
+</ObjetoNegocio>

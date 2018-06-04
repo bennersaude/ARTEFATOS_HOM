@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamContratoPrecoReembDotFetBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamContratoPrecoReembDotFet, Benner.Saude.Entidades</INTERFACE>
+	<HASH>C9EA9902A6EE435B583FFFC135013D89</HASH>
+</ObjetoNegocio>

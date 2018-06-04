@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.RotinaReapresentacao.SamRotinaReapresentacaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.RotinaReapresentacao.Interface.ISamRotinaReapresentacao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>016A0499B87F15BC39A79CA3F76FE6AB</HASH>
+</ObjetoNegocio>

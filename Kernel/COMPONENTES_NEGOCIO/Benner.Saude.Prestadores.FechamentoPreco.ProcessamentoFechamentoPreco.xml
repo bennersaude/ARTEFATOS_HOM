@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.FechamentoPreco.ProcessamentoFechamentoPreco</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.FechamentoPreco</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Prestadores.FechamentoPreco.IProcessamentoFechamentoPreco, Benner.Saude.Prestadores.FechamentoPreco</INTERFACE>
+	<HASH>18DA1CFDFD28A8A4C9BC217E73FD9355</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.Tabelas.SamClassiCarenciaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamClassiCarencia, Benner.Saude.Entidades</INTERFACE>
+	<HASH>8618E6229BC45D006CFE6216C459713A</HASH>
+</ObjetoNegocio>

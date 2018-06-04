@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.Sincronizacao.Licenca.SamBeneficiarioLicencaBLL</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.Sincronizacao</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Interface.ISamBeneficiarioLicenca, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F4CFD607E6B6D0076C9745CBD5AED632</HASH>
+</ObjetoNegocio>

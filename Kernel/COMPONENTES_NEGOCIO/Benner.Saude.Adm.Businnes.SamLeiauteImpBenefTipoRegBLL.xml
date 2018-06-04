@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamLeiauteImpBenefTipoRegBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISamLeiauteImpBenefTipoReg, Benner.Saude.Entidades</INTERFACE>
+	<HASH>0E2B01E2082F5335E1616E8D414F7526</HASH>
+</ObjetoNegocio>

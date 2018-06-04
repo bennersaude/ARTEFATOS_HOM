@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Tiss.Businnes.TisEstadosBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Tiss.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Tiss.Interface.ITisEstados, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E9348D9B25CCEA208E5006F0D3317F43</HASH>
+</ObjetoNegocio>

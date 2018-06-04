@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Comando>
+	<Configuracoes>
+		<HASH>1284DFB0FBCA5D76BD3ACF5654FD53F6</HASH>
+		<COMANDO>MONITOROUTSERVICOS</COMANDO>
+		<ORDEM>060</ORDEM>
+		<LEGENDA>Monitor de outros serviços</LEGENDA>
+		<DICA>Monitor de outros serviços</DICA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<SISTEMA>N</SISTEMA>
+		<SOMENTEDESKTOP/>
+		<BOTAO>N</BOTAO>
+		<MODIFICADORATALHO/>
+		<TECLAATALHO/>
+	</Configuracoes>
+</Comando>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Tecnologia.Metadata.Tasks.ArtifactIndexerTask</TIPO>
+	<ARQUIVO>Benner.Tecnologia.Metadata</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Tecnologia.Metadata.IArtifactIndexer, Benner.Tecnologia.Metadata</INTERFACE>
+	<HASH>0F5CE08A645DC1B34235A6EF3E9F0A0C</HASH>
+</ObjetoNegocio>

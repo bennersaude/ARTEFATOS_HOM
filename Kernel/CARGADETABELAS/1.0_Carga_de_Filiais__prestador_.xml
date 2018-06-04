@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>7121D99F135A3EE17589CEE3BE3A94CB</HASH>
+		<NOME>1.0 Carga de Filiais (prestador)</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>003</ORDEM>
+		<LEGENDA>Carga de Filiais (prestador)</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_3.8_t_Proponentes>
+			<HASH>86579BE7D8C3415941831BDDF863F96C</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.8 Proponentes</CARREGAR>
+		</_3.8_t_Proponentes>
+		<_3.0_CADASTRO_DE_PRESTADORES_POR_FILIAL>
+			<HASH>B4D37C8DEBBFFF7CE1C8D037B9387825</HASH>
+			<SQLESPECIAL/>
+			<ORDEM>040</ORDEM>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.0_CADASTRO_DE_PRESTADORES_POR_FILIAL</CARREGAR>
+		</_3.0_CADASTRO_DE_PRESTADORES_POR_FILIAL>
+		<_3.4_t_-_t_Alertas_t_de_t_Credenciamento_t_____t_filial>
+			<HASH>926A50BBEAA67FCF69A07E99F52F28CB</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.4 - Alertas de Credenciamento / filial</CARREGAR>
+		</_3.4_t_-_t_Alertas_t_de_t_Credenciamento_t_____t_filial>
+		<_3.6_t_-_t_Preços_t_____t_filial>
+			<HASH>507C83C743F0C24E7A770FF430DD2CC2</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>3.6 - Preços / filial</CARREGAR>
+		</_3.6_t_-_t_Preços_t_____t_filial>
+	</Pastas>
+</Arvore>

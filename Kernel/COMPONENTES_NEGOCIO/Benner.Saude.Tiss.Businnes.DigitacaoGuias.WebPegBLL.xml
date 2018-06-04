@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Tiss.Businnes.DigitacaoGuias.WebPegBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Tiss.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidade.WebPeg.IWebPeg, Benner.Saude.Entidade.WebPeg</INTERFACE>
+	<HASH>F285F4F18D19C5E39E380F823E9E9BAD</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.Reciprocidade.Exportacao.SamRotinaXmlBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Reciprocidade.Exportacao.Interface.ISamRotinaXml, Benner.Saude.Entidades</INTERFACE>
+	<HASH>D575D8CBF515DA7DAA9DD9CF6FB5AD37</HASH>
+</ObjetoNegocio>

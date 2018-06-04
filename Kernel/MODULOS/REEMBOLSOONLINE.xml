@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>2BC5F7AA1C1FEC20D4B95DAAC56C91C9</HASH>
+		<NOME>REEMBOLSOONLINE</NOME>
+		<TIPO>H</TIPO>
+		<ORDEM>999</ORDEM>
+		<LEGENDA>Reembolso On-line</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

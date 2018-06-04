@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.Impostos.SamPrestadorINSSComprovanteBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.Interface.ISamPrestadorINSSComprovante, Benner.Saude.Entidades</INTERFACE>
+	<HASH>D21E7917455CE7E60118F59839B241B3</HASH>
+</ObjetoNegocio>

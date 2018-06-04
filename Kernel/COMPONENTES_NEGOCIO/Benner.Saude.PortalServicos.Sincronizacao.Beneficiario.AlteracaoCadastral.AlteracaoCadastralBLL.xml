@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.Sincronizacao.Beneficiario.AlteracaoCadastral.AlteracaoCadastralBLL</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.Sincronizacao</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.PortalServicos.Interface.IAlteracaoCadastral, Benner.Saude.Entidades</INTERFACE>
+	<HASH>C0F7A1F2D43A219F2EC2E8BE85924D47</HASH>
+</ObjetoNegocio>

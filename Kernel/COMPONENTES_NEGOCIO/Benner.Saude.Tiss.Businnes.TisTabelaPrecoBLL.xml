@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Tiss.Businnes.TisTabelaPrecoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Tiss.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Tiss.Interface.ITisTabelaPreco, Benner.Saude.Entidades</INTERFACE>
+	<HASH>FAB4FAE013B556FF045D30DDEF94FA10</HASH>
+</ObjetoNegocio>

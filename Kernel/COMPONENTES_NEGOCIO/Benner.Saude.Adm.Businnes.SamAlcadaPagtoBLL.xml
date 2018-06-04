@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamAlcadaPagtoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.ISamAlcadaPagto, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E5154A7FB684F4E6D87C01F8747B24C7</HASH>
+</ObjetoNegocio>

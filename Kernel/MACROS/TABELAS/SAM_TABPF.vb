@@ -1,0 +1,5 @@
+﻿'HASH: FA8EE80367842EB543B32A4584F5A584
+
+Public Sub TABLE_AfterScroll()
+  BOTAOGERAREVENTOS.Visible = False
+End Sub

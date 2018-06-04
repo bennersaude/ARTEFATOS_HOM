@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.Ca_SolicitoutrosBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Atendimento.Interfaces.ICa_Solicitoutros, Benner.Saude.Atendimento.Interfaces</INTERFACE>
+	<HASH>DBDF32C182F09217824782F6B7975288</HASH>
+</ObjetoNegocio>

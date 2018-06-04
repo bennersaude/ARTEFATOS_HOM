@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Diversos.Business.SamEnderecoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Diversos.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Diversos.Interface.ISamEndereco, Benner.Saude.Entidades</INTERFACE>
+	<HASH>A84E42E0D05174FF50DC5278B74A9E3D</HASH>
+</ObjetoNegocio>

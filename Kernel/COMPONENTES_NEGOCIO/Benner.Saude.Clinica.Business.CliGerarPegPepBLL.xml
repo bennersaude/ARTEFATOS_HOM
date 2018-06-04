@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Clinica.Business.CliGerarPegPepBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Clinica.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Clinica.ICliGerarPegPep, Benner.Saude.Entidades</INTERFACE>
+	<HASH>C41B7F21BAC2E5E4E5499A8039D828B0</HASH>
+</ObjetoNegocio>

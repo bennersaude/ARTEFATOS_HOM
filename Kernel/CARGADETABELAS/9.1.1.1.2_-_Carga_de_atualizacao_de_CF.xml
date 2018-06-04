@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>4AD7522EBE3668239A3A19CFB6781F13</HASH>
+		<NOME>9.1.1.1.2 - Carga de atualizacao de CF</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>_00</ORDEM>
+		<LEGENDA>Conta financeira</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_9.X.1_t_-_t_Atualiza_t_CF_t_benef>
+			<HASH>95553511B2FF7956892DC5C4A24B6FE9</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualiza CF benef</CARREGAR>
+		</_9.X.1_t_-_t_Atualiza_t_CF_t_benef>
+		<_9.X.1_t_-_t_Atualiza_t_CF_t_prest>
+			<HASH>B6830AD7651D3D1B897FF91767B34503</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualiza CF prest</CARREGAR>
+		</_9.X.1_t_-_t_Atualiza_t_CF_t_prest>
+		<_9.X.1_t_-_t_Atualiza_t_CF_t_pessoas>
+			<HASH>5660EEC5B83774B7FF7EEB63F8FD8A2D</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualiza CF pessoas</CARREGAR>
+		</_9.X.1_t_-_t_Atualiza_t_CF_t_pessoas>
+	</Pastas>
+</Arvore>

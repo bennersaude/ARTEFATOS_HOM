@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Financeiro.Business.SfnRotinaFinComBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Financeiro.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Financeiro.Interface.ISfnRotinaFinCom, Benner.Saude.Entidades</INTERFACE>
+	<HASH>BBC07A0BB47C77F4194F8F1852A1B1A2</HASH>
+</ObjetoNegocio>

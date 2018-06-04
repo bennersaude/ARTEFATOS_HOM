@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>413C6DF6280206203337009A5E261599</HASH>
+		<NOME>9.1.1 Serviços</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>_00</ORDEM>
+		<LEGENDA>Serviços</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR/>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_9.1.1.1_t_-_t_Atualização>
+			<HASH>3F0FC1BC6BDC7CBE8504757511938E82</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.1.1.1 - Atualização</CARREGAR>
+		</_9.1.1.1_t_-_t_Atualização>
+		<_9.X.1_t_-_t_Comprovante_t_IRRF>
+			<HASH>B53EBE1E1604C0EC69A69191615C7433</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Comprovante IRRF</CARREGAR>
+		</_9.X.1_t_-_t_Comprovante_t_IRRF>
+		<_9.X.1_t_-_t_Outros_t_serviços>
+			<HASH>F9881C839ECF28305F6B19B11810EF05</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Outros serviços</CARREGAR>
+		</_9.X.1_t_-_t_Outros_t_serviços>
+		<_9.X.1_t_-_t_Reativação>
+			<HASH>5F30A7441C85E7DB29E77233425DBDB3</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Reativação</CARREGAR>
+		</_9.X.1_t_-_t_Reativação>
+		<_9.X.1_t_-_t_Segunda_t_via_t_de_t_cartão>
+			<HASH>9B762535879EC32AF183B1F32008A816</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Segunda via de cartão</CARREGAR>
+		</_9.X.1_t_-_t_Segunda_t_via_t_de_t_cartão>
+		<_9.X.1_t_-_t_Segunda_t_via_t_de_t_boleto>
+			<HASH>3602DE02971CAD32641D08808589F796</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Segunda via de boleto</CARREGAR>
+		</_9.X.1_t_-_t_Segunda_t_via_t_de_t_boleto>
+	</Pastas>
+</Arvore>

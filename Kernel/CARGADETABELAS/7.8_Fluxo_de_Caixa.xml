@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>C1465906E7FB21FD02A36E2BF2EE03FE</HASH>
+		<NOME>7.8 Fluxo de Caixa</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>002</ORDEM>
+		<LEGENDA>Fluxo de Caixa</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+</Arvore>

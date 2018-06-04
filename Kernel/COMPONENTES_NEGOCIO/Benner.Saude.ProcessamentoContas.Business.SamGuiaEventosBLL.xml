@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.SamGuiaEventosBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.ISamGuiaEventos, Benner.Saude.Entidades</INTERFACE>
+	<HASH>3E6103A9199499CBADA08C0813E556E5</HASH>
+</ObjetoNegocio>

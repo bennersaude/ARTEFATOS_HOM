@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>8D75DE75C7822288676D318603EE9168</HASH>
+		<NOME>9.1.1.1.1 Carga atualização cadastro</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>_00</ORDEM>
+		<LEGENDA>Cadastro</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_9.X.1_t_-_t_Atualização_t_cad_t_benef>
+			<HASH>C5911BE2CEDFF1FE689C9DD70AFE6727</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualização cad benef</CARREGAR>
+		</_9.X.1_t_-_t_Atualização_t_cad_t_benef>
+		<_9.X.1_t_-_t_Atualização_t_cad_t_pessoa>
+			<HASH>49138CFDA4733C391DEADC258D8965DD</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualização cad pessoa</CARREGAR>
+		</_9.X.1_t_-_t_Atualização_t_cad_t_pessoa>
+		<_9.X.1_t_-_t_Atualização_t_cad_t_prest>
+			<HASH>0611E8EC30315A35F37496CD02DE81B9</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>9.X.1 - Atualização cad prest</CARREGAR>
+		</_9.X.1_t_-_t_Atualização_t_cad_t_prest>
+	</Pastas>
+</Arvore>

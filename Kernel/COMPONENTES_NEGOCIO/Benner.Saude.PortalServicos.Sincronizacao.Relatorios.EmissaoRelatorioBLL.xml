@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.PortalServicos.Sincronizacao.Relatorios.EmissaoRelatorioBLL</TIPO>
+	<ARQUIVO>Benner.Saude.PortalServicos.Sincronizacao</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.PortalServicos.Interface.ITvPorEmissaoRelatorio, Benner.Saude.Entidades</INTERFACE>
+	<HASH>F17FCBA502DDF0022A2697B6AB82103E</HASH>
+</ObjetoNegocio>

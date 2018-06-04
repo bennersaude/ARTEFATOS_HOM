@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Prestadores.Business.ReajustePrecoSimplificado.ReajustePrecoSimpBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Prestadores.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Prestadores.ReajustePrecoSimplificado.Interface.IReajustePrecoSimp, Benner.Saude.Entidades</INTERFACE>
+	<HASH>00AAA0BF0D7CD2E178D0170BFB695B51</HASH>
+</ObjetoNegocio>

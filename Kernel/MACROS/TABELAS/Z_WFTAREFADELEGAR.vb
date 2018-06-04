@@ -1,0 +1,7 @@
+﻿'HASH: 8843F7B1B820573C7CEDE7CC3A43F204
+ 
+ 
+Public Sub DESTINATARIO_OnPopup(ShowPopup As Boolean) 
+  DESTINATARIO.LocalWhere = SessionVar("WFUSERDELEGATE") 
+End Sub 
+ 

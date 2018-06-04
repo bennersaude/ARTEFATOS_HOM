@@ -1,0 +1,6 @@
+﻿'HASH: ECAB12B3ADB2873D1DB6D9F6C60A703E
+ 
+ 
+Public Sub TABLE_AfterInsert() 
+  PROCESSO.LocalWhere = SessionVar("PROCESSOWHERE") 
+End Sub 

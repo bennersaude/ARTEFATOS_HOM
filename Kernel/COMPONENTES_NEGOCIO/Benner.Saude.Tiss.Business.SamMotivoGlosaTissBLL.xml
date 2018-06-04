@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Tiss.Business.SamMotivoGlosaTissBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Tiss.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Tiss.Interface.ISamMotivoGlosaTiss, Benner.Saude.Entidades</INTERFACE>
+	<HASH>86CC8E441BB9BA27C9E863EBAA57318E</HASH>
+</ObjetoNegocio>

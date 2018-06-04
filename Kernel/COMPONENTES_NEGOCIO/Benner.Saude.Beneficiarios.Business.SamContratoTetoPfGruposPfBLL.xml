@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.SamContratoTetoPfGruposPfBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.ISamContratoTetoPfGruposPf, Benner.Saude.Entidades</INTERFACE>
+	<HASH>C2A6CEDA5E745363035D98F322F7B229</HASH>
+</ObjetoNegocio>

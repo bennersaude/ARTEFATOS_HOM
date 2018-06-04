@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Tabela>
+	<Configuracoes>
+		<HASH>DF1614F3913F69E4351DDB182554FAC3</HASH>
+		<NOME>SAM_COMPETXML</NOME>
+		<APELIDO/>
+		<LEGENDA>Competência de exportação de guias para convênios de reciprocidade</LEGENDA>
+		<LOCAL>N</LOCAL>
+		<TIPO>N</TIPO>
+		<GENERICA>N</GENERICA>
+		<DESENVOLVIMENTO>N</DESENVOLVIMENTO>
+		<SOLEITURA>N</SOLEITURA>
+		<PROTEGERREGISTRO>N</PROTEGERREGISTRO>
+		<POREMPRESA>N</POREMPRESA>
+		<PORPERIODO>N</PORPERIODO>
+		<PORFILIAL>N</PORFILIAL>
+		<AGENDA>N</AGENDA>
+		<CODIGOINTERNO>0</CODIGOINTERNO>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>8388608</FLAGS>
+		<CHAVEDB2EEE/>
+		<TOPICOAJUDA/>
+		<TSPACE/>
+		<TSPACELONG/>
+		<TSPACEINDEX/>
+		<Z_GRUPO/>
+		<OBSERVACOES>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+\viewkind4\uc1\pard\lang1046\f0\fs22 Esta tabela armazena as compet\'eancias de refer\'eancia para o processamento da rotina de exporta\'e7\'e3o de guias para os conv\'eanios de reciprocidade. \par
+\par
+Este processo foi incorporado definitivamente ao \i kernel \i0 do sistema AG na SMS \b 338466\b0 .\par
+}</OBSERVACOES>
+		<TABELAFISICA/>
+		<TIPOPARTICIONAMENTO>1</TIPOPARTICIONAMENTO>
+		<ORIGEM>1</ORIGEM>
+		<COMANDO/>
+		<Z_EXCLUIDO/>
+		<ENTIDADE>SamCompetXml</ENTIDADE>
+	</Configuracoes>
+	<Campos>
+		<COMPETENCIA>
+			<TABELA>SAM_COMPETXML</TABELA>
+			<NOME>COMPETENCIA</NOME>
+			<LEGENDAFORMULARIO>Competência</LEGENDAFORMULARIO>
+			<LEGENDAGRADE>Competência</LEGENDAGRADE>
+			<ORDEM>050</ORDEM>
+			<DICA>Mês da competência</DICA>
+			<PAGINA/>
+			<CODIGOINTERNO/>
+			<SISTEMA>N</SISTEMA>
+			<OPCIONAL>N</OPCIONAL>
+			<INVISIVEL>N</INVISIVEL>
+			<SOLEITURA>N</SOLEITURA>
+			<NOVALINHA>N</NOVALINHA>
+			<MOSTRARGRID>S</MOSTRARGRID>
+			<ALCLIENTE>N</ALCLIENTE>
+			<CLASSE>5</CLASSE>
+			<HERDARPERMISSAO/>
+			<LARGURA/>
+			<MASCARA/>
+			<DECIMAIS/>
+			<LARGURAFORMULARIO/>
+			<MAIUSCULAS>N</MAIUSCULAS>
+			<ASSUMIR/>
+			<ASSUMIRINTEIRO/>
+			<ASSUMIRREAL/>
+			<ASSUMIRLOGICO>N</ASSUMIRLOGICO>
+			<ASSUMIRDATA/>
+			<MINIMO/>
+			<MAXIMO/>
+			<CAMPOMESTRE/>
+			<CAMPOMESTREORIGINAL/>
+			<ANCESTRAL/>
+			<PESQUISAR/>
+			<RESULTADO/>
+			<TEXTO/>
+			<FLAGS>8192</FLAGS>
+			<FLAGS1>9</FLAGS1>
+			<FLAGS2>0</FLAGS2>
+			<CLIDEF>N</CLIDEF>
+			<Z_GRUPO/>
+			<OBSERVACOES/>
+			<PROPRIEDADE>Competencia</PROPRIEDADE>
+			<HASH>DC152A1713E8774399877439D02EE245</HASH>
+		</COMPETENCIA>
+	</Campos>
+	<EntidadesEspecializadas>
+		<Benner.Saude.Entidades.Beneficiarios.Reciprocidade.Exportacao.SamCompetXml>
+			<Z_GRUPO/>
+			<ENTIDADE>SAM_COMPETXML</ENTIDADE>
+			<TIPO>Benner.Saude.Entidades.Beneficiarios.Reciprocidade.Exportacao.SamCompetXml</TIPO>
+			<ARQUIVO>Benner.Saude.Entidades</ARQUIVO>
+			<ANCESTRAL/>
+			<INTERFACE/>
+			<HASH>BCEC50597B40E8ED89AFD9B7668BDF64</HASH>
+		</Benner.Saude.Entidades.Beneficiarios.Reciprocidade.Exportacao.SamCompetXml>
+	</EntidadesEspecializadas>
+</Tabela>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Arvore>
+	<Configuracoes>
+		<HASH>911C7769BFFE46F13852824C7960A63C</HASH>
+		<NOME>2 Clínicas</NOME>
+		<TIPO>V</TIPO>
+		<ORDEM>004</ORDEM>
+		<LEGENDA>Clínicas</LEGENDA>
+		<SISTEMA>N</SISTEMA>
+		<CLIDEF>N</CLIDEF>
+		<FLAGS>0</FLAGS>
+		<EXTENSAO/>
+		<ORDENAR>N</ORDENAR>
+		<TOPICOAJUDA/>
+		<TABELA/>
+		<GENERICO>N</GENERICO>
+		<HASHMACRO/>
+	</Configuracoes>
+	<Pastas>
+		<_2.1_t_Atendimentos>
+			<HASH>BDE0C4D8C4159D101F16EAD71606F71D</HASH>
+			<SQLESPECIAL/>
+			<ORDEM/>
+			<CLIDEF>N</CLIDEF>
+			<FLAGS>0</FLAGS>
+			<CARREGAR>2.1 Atendimentos</CARREGAR>
+		</_2.1_t_Atendimentos>
+	</Pastas>
+</Arvore>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.FilaIntegracao.AdmMensagensIntegracaoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.IAdmMensagensIntegracao, Benner.Saude.Entidades</INTERFACE>
+	<HASH>47B1113851C3F2B49B2C456E1DF48994</HASH>
+</ObjetoNegocio>

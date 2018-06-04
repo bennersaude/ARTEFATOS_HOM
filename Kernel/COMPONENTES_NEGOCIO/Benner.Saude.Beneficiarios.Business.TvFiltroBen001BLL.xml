@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.TvFiltroBen001BLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.TabelaVirtual.Interface.ITvFiltroBen001, Benner.Saude.Entidades</INTERFACE>
+	<HASH>CDEFE1409BADFEF3624FD3616536889A</HASH>
+</ObjetoNegocio>

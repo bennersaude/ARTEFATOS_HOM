@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Adm.Businnes.SamSincronizacaoHospitalarBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Adm.Businnes</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Adm.Interface.ISamSincronizacaoHospitalar, Benner.Saude.Entidades</INTERFACE>
+	<HASH>AC8DBA682C1B10A3B811404B1B2D810F</HASH>
+</ObjetoNegocio>

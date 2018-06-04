@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.TabelaVirtual.TvForm0147BLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.TabelaVirtual.ProcessamentoContas.Interface.ITvForm0147, Benner.Saude.Entidades</INTERFACE>
+	<HASH>FE252211655EB920E35CA20C77C87716</HASH>
+</ObjetoNegocio>

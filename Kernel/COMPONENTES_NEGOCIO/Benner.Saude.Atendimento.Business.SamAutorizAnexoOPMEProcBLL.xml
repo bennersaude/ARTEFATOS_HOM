@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Atendimento.Business.SamAutorizAnexoOPMEProcBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Atendimento.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Atendimento.Interfaces.ISamAutorizAnexoOPMEProc, Benner.Saude.Atendimento.Interfaces</INTERFACE>
+	<HASH>8FF1440EEC22B654FBFAF6D1440994A4</HASH>
+</ObjetoNegocio>

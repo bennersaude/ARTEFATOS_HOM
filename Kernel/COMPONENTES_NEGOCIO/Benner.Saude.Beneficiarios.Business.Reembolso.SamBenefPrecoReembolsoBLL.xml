@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.Beneficiarios.Business.Reembolso.SamBenefPrecoReembolsoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.Beneficiarios.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.Beneficiarios.Reembolso.Interface.ISamBenefPrecoReembolso, Benner.Saude.Entidades</INTERFACE>
+	<HASH>E68C3D5CEBFD3DFE9E2F729A51EA88AA</HASH>
+</ObjetoNegocio>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.ProcessamentoContas.Business.Beneficiario.Reembolso.SamParametrosReembolsoBLL</TIPO>
+	<ARQUIVO>Benner.Saude.ProcessamentoContas.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.ProcessamentoContas.Beneficiario.Reembolso.Interface.ISamParametrosReembolso, Benner.Saude.Entidades</INTERFACE>
+	<HASH>1FC6E0D4AAD7F6D1E7E45487F2D565B2</HASH>
+</ObjetoNegocio>

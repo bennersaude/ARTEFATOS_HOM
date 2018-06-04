@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjetoNegocio>
+	<Z_GRUPO/>
+	<ENTIDADE/>
+	<TIPO>Benner.Saude.IntegracaoFinanceira.Business.MovimentoFinanceiro.AdmParamIntegracaoCorpBennerBLL</TIPO>
+	<ARQUIVO>Benner.Saude.IntegracaoFinanceira.Business</ARQUIVO>
+	<ANCESTRAL/>
+	<INTERFACE>Benner.Saude.Entidades.IntegracaoFinanceira.Interface.IAdmParamIntegracaoCorpBenner, Benner.Saude.Entidades</INTERFACE>
+	<HASH>5DE0CBCC337D5DF3BFF926BB7718665F</HASH>
+</ObjetoNegocio>
